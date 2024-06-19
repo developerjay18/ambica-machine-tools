@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom CSS for backgrounds */
+.home-hero-bg {
+  background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1718767950/ambica-machine-tools/m3rvgxt5fjehdyofhije.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* CSS for scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #737373;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
