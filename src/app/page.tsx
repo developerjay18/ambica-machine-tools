@@ -345,7 +345,7 @@ export default function Home() {
         <div className="mt-16">
           <Slider {...settingProducts}>
             {products.products.map((item, index) => (
-              <div className="border-8 border-[#f4f4f4]">
+              <div className="border-8 border-[#f4f4f4]" key={index}>
                 <div
                   className="card w-full shadow-md bg-themeCarrot"
                   key={index}
