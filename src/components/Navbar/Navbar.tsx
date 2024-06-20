@@ -77,9 +77,9 @@ function Navbar() {
                     <div className="invisible absolute z-50 flex w-full flex-col bg-gray-100 py-1 px-4 text-gray-800 min-w-[220px] shadow-xl group-hover:visible">
                       <Link
                         className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 capitalize"
-                        href={"/products/car-suv-battery"}
+                        href={"/hand-hydro-test-pump"}
                       >
-                        car/suv Battery
+                        Hand Hydro Test pump
                       </Link>
                       <Link
                         className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 capitalize"

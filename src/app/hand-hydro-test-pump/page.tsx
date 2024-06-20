@@ -265,6 +265,99 @@ function HandHydroTestPumpPage() {
           </tbody>
         </table>
       </div>
+
+      {/* content section  */}
+      <div className="content p-24 flex flex-col gap-y-20">
+        <div className="flex">
+          <div className="left w-1/2">
+            <div className="">
+              <h1 className="uppercase text-4xl font-bold">
+                machine
+                <span className="text-themeCarrot"> application</span>
+              </h1>
+              <div className="h-1 w-[25%] bg-black mt-4"></div>
+            </div>
+            <div className=" mt-8">
+              <ul className="text-lg capitalize">
+                <li>boilers, pressure vessels, c.I main casting parts</li>
+                <li>gas cylinder, pipes & tubes parts pumps and valve body</li>
+                <li>subject to hydro testing</li>
+              </ul>
+            </div>
+          </div>
+          <div className="right w-1/2">
+            <div className="">
+              <h1 className="uppercase text-4xl font-bold">
+                special
+                <span className="text-themeCarrot"> features</span>
+              </h1>
+              <div className="h-1 w-[22%] bg-black mt-4"></div>
+            </div>
+            <div className=" mt-8">
+              <ul className="text-lg capitalize">
+                <li>
+                  portable hand operated system can be easily operated by one
+                  man.
+                </li>
+                <li>
+                  pump unit is mounted on fabricated M.S water tank which stores
+                  liquid for testing.
+                </li>
+                <li>pump does not required any foundation</li>
+                <li>provides self base for testing.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="flex">
+          <div className="left">
+            <div className="">
+              <h1 className="uppercase text-4xl font-bold">
+                standard accessories
+                <span className="text-themeCarrot"> with M.O.C</span>
+              </h1>
+              <div className="h-1 w-[68%] bg-black mt-4"></div>
+            </div>
+            <div className=" mt-8">
+              <ul className="text-lg capitalize">
+                <li>
+                  pressure release valve made from stainless steel 304 material
+                  (needle type valve).
+                </li>
+                <li>
+                  discharge high pressure hose with attachment of 1/2&quot; inch
+                  BSP connection length 2 mtrs.
+                </li>
+                <li>
+                  stainless steel 304 glycerin filled pressure gauge with
+                  4&quot; inch dial (NABL calibrated).
+                </li>
+                <li>
+                  discharge valve (NRV) made from stainless steel 304 material
+                </li>
+                <li>
+                  pump handle made from mid steel materia. (power coated).
+                </li>
+                <li>
+                  suction pipe & foot valve made from stainless steel 304
+                  material.
+                </li>
+                <li>
+                  pump plunger body (main body) with gland pusher made from mid
+                  steel material with auto finish paint.
+                </li>
+                <li>
+                  distributor body made from stainless steel 304 material.
+                </li>
+                <li>
+                  pump plunger made from stainless steel 304 material with
+                  hardening.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* custom CSS  */
+ul li{
+  list-style-type: disc;
+}
+
 /* custom CSS for backgrounds */
 .home-hero-bg {
   background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1718767950/ambica-machine-tools/m3rvgxt5fjehdyofhije.svg");
