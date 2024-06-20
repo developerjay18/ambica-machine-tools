@@ -38,7 +38,7 @@ function Navbar() {
         <div className="right flex items-center">
           {/* nav links  */}
           <div className="nav-links flex items-center gap-x-20">
-            <ul className="flex gap-x-10 items-center">
+            <ol className="flex gap-x-10 items-center">
               <Link href={"/"} className="capitalize">
                 <li>Home</li>
               </Link>
@@ -83,9 +83,15 @@ function Navbar() {
                       </Link>
                       <Link
                         className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 capitalize"
-                        href={"/products/truck-tractor-battery"}
+                        href={"/motor-hydro-test-pump"}
                       >
-                        truck/tractor battery
+                        Motor Hydro Test pump
+                      </Link>
+                      <Link
+                        className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 capitalize"
+                        href={"/triplex-plunger-pump"}
+                      >
+                        Triplex plunger pump
                       </Link>
                     </div>
                   </div>
@@ -95,7 +101,7 @@ function Navbar() {
               <Link href={"/contact-us"} className="capitalize">
                 <li>contact us</li>
               </Link>
-            </ul>
+            </ol>
           </div>
         </div>
       </div>

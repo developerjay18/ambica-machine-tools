@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-function SingleHydroTestPumpPage() {
+function MotorHydroTestPumpPage() {
   return (
     <div className="">
       {/* hero section  */}
@@ -159,8 +159,147 @@ function SingleHydroTestPumpPage() {
           </tbody>
         </table>
       </div>
+
+      {/* content section  */}
+      <div className="content p-24 flex flex-col gap-y-20">
+        <div className="flex">
+          <div className="left w-1/2">
+            <div className="">
+              <h1 className="uppercase text-4xl font-bold">
+                machine
+                <span className="text-themeCarrot"> application</span>
+              </h1>
+              <div className="h-1 w-[25%] bg-black mt-4"></div>
+            </div>
+            <div className=" mt-8">
+              <ul className="text-lg capitalize">
+                <li>boilers, pressure vessels, c.I main casting parts.</li>
+                <li>gas cylinder, pipes & tubes parts pumps.</li>
+                <li>subject to hydro testing.</li>
+              </ul>
+            </div>
+          </div>
+          <div className="right w-1/2">
+            <div className="">
+              <h1 className="uppercase text-4xl font-bold">
+                special
+                <span className="text-themeCarrot"> features</span>
+              </h1>
+              <div className="h-1 w-[22%] bg-black mt-4"></div>
+            </div>
+            <div className=" mt-8">
+              <ul className="text-lg capitalize">
+                <li>electric motorized / engine driven system.</li>
+                <li>totally enclosed driven mechanism.</li>
+                <li>heavy duty precision gear box.</li>
+                <li>large air chamber.</li>
+                <li>self oiling system quick acting relief.</li>
+                <li>totally dependable, reliable and efficient performance.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="left w-1/2 pr-10">
+            <div className="">
+              <h1 className="uppercase text-4xl font-bold">
+                optional
+                <span className="text-themeCarrot"> accessories</span>
+              </h1>
+              <div className="h-1 w-[27%] bg-black mt-4"></div>
+            </div>
+            <div className=" mt-8">
+              <ul className="text-lg capitalize">
+                <li>
+                  water tank capacity of 50 litres & made from stainless steel
+                  304 material with level indicator & suction steiner - SS 304
+                </li>
+                <li>O.O.L push button pump starter make L&T or C&S</li>
+              </ul>
+            </div>
+          </div>
+          <div className="right w-1/2">
+            <div className="">
+              <h1 className="uppercase text-4xl font-bold">
+                performance
+                <span className="text-themeCarrot"> range</span>
+              </h1>
+              <div className="h-1 w-[41%] bg-black mt-4"></div>
+            </div>
+            <div className=" mt-8">
+              <ul className="text-lg capitalize">
+                <li>
+                  test pressure up to 1200 kg/cm <sup>2</sup>
+                </li>
+                <li>water flow capacity up to 120 LPH</li>
+                <li>motor up to 10 HP</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="left">
+            <div className="">
+              <h1 className="uppercase text-4xl font-bold">
+                standard accessories
+                <span className="text-themeCarrot"> with M.O.C</span>
+              </h1>
+              <div className="h-1 w-[68%] bg-black mt-4"></div>
+            </div>
+            <div className=" mt-8">
+              <ul className="text-lg capitalize">
+                <li>
+                  pressure release valve made from stainless steel 304 material
+                  (needle type valve).
+                </li>
+                <li>
+                  discharge high pressure hose with attachment of 1/2&quot; inch
+                  BSP connection length 2 mtrs.
+                </li>
+                <li>
+                  stainless steel 304 glycerin filled pressure gauge with
+                  4&quot; inch dial (NABL calibrated).
+                </li>
+                <li>
+                  discharge valve (NRV) made from stainless steel 304 material
+                </li>
+                <li>
+                  suction and overflow nylon braided hose pipe supple attchment
+                  of 1/2&quot; BSP length 2 mtrs.
+                </li>
+                <li>
+                  suction and discharge valve made from stainless steel 304
+                  material.
+                </li>
+                <li>air chamber made from stainless steel 304 material.</li>
+                <li>
+                  discharge valve (NRV) made from stainless steel 304 material
+                </li>
+                <li>
+                  pressure set value made from stainless steel 304 material.
+                </li>
+                <li>
+                  distributor body made from stainless steel 304 material.
+                </li>
+                <li>
+                  pump stand made from mild steel 3&quot; x 1{" "}
+                  <sup>1/2&quot;</sup>c channel.
+                </li>
+                <li>
+                  pump mounted on suitable trolley with rubber brake caster
+                  wheel.
+                </li>
+                <li>pulley guard made from mild steel material.</li>
+                <li>pump and motor pulley made from mild steel material.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default SingleHydroTestPumpPage;
+export default MotorHydroTestPumpPage;
