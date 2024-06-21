@@ -13,7 +13,7 @@ function TriplexPlungerPumpPage() {
           <div className="left">
             {/* for larger screens  */}
             <h1 className="text-5xl text-center hidden uppercase font-bold w-[80%] mx-auto lg:block leading-[4rem]">
-              triplex plunger pump
+             series amttpp -  triplex plunger pump
             </h1>
 
             {/* for small screens 

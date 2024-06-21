@@ -91,13 +91,19 @@ function Navbar() {
                         className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 capitalize"
                         href={"/triplex-plunger-pump"}
                       >
-                        Triplex plunger pump
+                        series AMTTPP Triplex plunger pump
                       </Link>
                       <Link
                         className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 capitalize"
                         href={"/high-pressure-triplex-plunger-pump"}
                       >
-                        high pressure Triplex plunger pump
+                        series AMTLP high pressure Triplex plunger pump
+                      </Link>
+                      <Link
+                        className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 capitalize"
+                        href={"/amthp-triplex-plunger-pump"}
+                      >
+                        series AMTHP high pressure Triplex plunger pump
                       </Link>
                     </div>
                   </div>

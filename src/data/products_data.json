@@ -2,33 +2,27 @@
   "products": [
     {
       "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718778181/ambica-machine-tools/h5qzezuxdafuvegzc7sh.svg",
-      "name": "triplex plunger pump",
-      "slug": "/"
+      "name": "triplex plunger pump"
     },
     {
       "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718778182/ambica-machine-tools/crtaeaz1t6qbds11gdr6.svg",
-      "name": "hydro jetting pump",
-      "slug": "/"
+      "name": "hydro jetting pump"
     },
     {
       "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718778183/ambica-machine-tools/nejjayakgusqiihklnfd.svg",
-      "name": "portable hydro test pump",
-      "slug": "/"
+      "name": "portable hydro test pump"
     },
     {
       "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718778184/ambica-machine-tools/ruow4mz11hf0uhzsogmn.svg",
-      "name": "hydro test pump (single plunger type)",
-      "slug": "/"
+      "name": "hydro test pump (single plunger type)"
     },
     {
       "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718778189/ambica-machine-tools/kfegsblecfvkmnpuu9z4.svg",
-      "name": "hydro test pump (hand driven unit)",
-      "slug": "/hand-hydro-test-pump"
+      "name": "hydro test pump (hand driven unit)"
     },
     {
       "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718789391/ambica-machine-tools/n7bpclris4dtnuyxdj61.png",
-      "name": "hydro testing pump",
-      "slug": "/"
+      "name": "hydro testing pump"
     }
   ]
 }

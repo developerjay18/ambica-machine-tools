@@ -357,13 +357,8 @@ export default function Home() {
                     width={350}
                     className="mx-auto"
                   />
-                  <div className="bg-white capitalize font-semibold">
-                    <Link
-                      href={item.slug}
-                      className="flex items-center gap-x-4 px-4 py-4"
-                    >
-                      {item.name} <FaLongArrowAltRight />
-                    </Link>
+                  <div className="bg-white capitalize font-semibold flex items-center gap-x-4 px-4 py-4">
+                    {item.name} <FaLongArrowAltRight />
                   </div>
                 </div>
               </div>

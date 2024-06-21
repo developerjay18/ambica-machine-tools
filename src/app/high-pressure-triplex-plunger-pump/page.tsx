@@ -13,7 +13,7 @@ function HighTriplexPlungerPumpPage() {
           <div className="left">
             {/* for larger screens  */}
             <h1 className="text-5xl text-center hidden uppercase font-bold w-[80%] mx-auto lg:block leading-[4rem]">
-              HIGH PRESSURE TRIPLEX PLUNGER PUMP
+              series amtlp - HIGH PRESSURE TRIPLEX PLUNGER PUMP
             </h1>
 
             {/* for small screens 
@@ -82,188 +82,426 @@ function HighTriplexPlungerPumpPage() {
           <div className="h-1 w-[13%] bg-black mt-4"></div>
         </div>
 
-        <table className="border border-gray-500 w-full mt-10">
-          <thead className="capitalize">
-            <tr>
-              <th className="border-r border-gray-500">pump model no</th>
-              <th className="border-r border-gray-500 flex flex-col justify-center items-center">
-                <tr>
-                  <th className="pb-1">discharge size</th>
-                </tr>
-                <tr className="w-full flex border-t border-gray-500">
-                  <th className="w-1/2 border-r border-gray-500">BSP</th>
-                  <th className="w-1/2">MM</th>
-                </tr>
-              </th>
-              <th className="border-r border-gray-500">
-                max. pressure <br /> kg/ cm <sup>2</sup> P.S.I{" "}
-              </th>
-              <th className="border-r border-gray-500">
-                out put <br /> CC/stroke
-              </th>
-              <th className="border-r border-gray-500">
-                plunger <br />
-                size in mm
-              </th>
-              <th className="border-r border-gray-500">
-                water tank <br /> size in Ltrs.
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="border-t border-gray-500 text-center">
-              <td className="border-r border-gray-500 py-1">AMTH - 35</td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">1/2</td>
-                  <td className="w-1/2">12.5</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">35</td>
-                  <td className="w-1/2">500</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500">15.70</td>
-              <td className="border-r border-gray-500">22</td>
-              <td className="border-r border-gray-500">12</td>
-            </tr>
+        <div className="table-1">
+          <h2 className="mt-16 text-3xl font-bold text-center">
+            AMTLP SERIES PRODUCT RANGE FOR
+            <span className="text-themeCarrot ">
+              &nbsp; HYDRO TEST APPLICATION
+            </span>
+          </h2>
+          <table className="border border-gray-500 w-full mt-8">
+            <thead>
+              <tr className="capitalize">
+                <th className="border-r border-gray-500">model no.</th>
+                <th className="border-r border-gray-500">
+                  plunger <br /> diameter(MM)
+                </th>
+                <th className="border-r border-gray-500">
+                  flow <br /> (LPM)
+                </th>
+                <th className="border-r border-gray-500">
+                  Max. related <br /> pressure (KG/CM<sup>2</sup>)
+                </th>
+                <th className="border-r border-gray-500">
+                  strokes oer <br /> minute
+                </th>
+                <th className="border-r border-gray-500">
+                  motor <br /> (HP)
+                </th>
+                <th className="border-r border-gray-500">inlet</th>
+                <th className="border-r border-gray-500">outlet</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 130/10</td>
+                <td className="border-r border-gray-500">12</td>
+                <td className="border-r border-gray-500">10</td>
+                <td className="border-r border-gray-500">1300</td>
+                <td className="border-r border-gray-500">750</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
 
-            <tr className="border-t border-gray-500 text-center">
-              <td className="border-r border-gray-500 py-1">AMTH - 70</td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">1/2</td>
-                  <td className="w-1/2">12.5</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">70</td>
-                  <td className="w-1/2">1000</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500">15.70</td>
-              <td className="border-r border-gray-500">22</td>
-              <td className="border-r border-gray-500">22</td>
-            </tr>
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 130/08</td>
+                <td className="border-r border-gray-500">12</td>
+                <td className="border-r border-gray-500">8</td>
+                <td className="border-r border-gray-500">1300</td>
+                <td className="border-r border-gray-500">620</td>
+                <td className="border-r border-gray-500">30</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
 
-            <tr className="border-t border-gray-500 text-center">
-              <td className="border-r border-gray-500 py-1">AMTH - 105</td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">1/2</td>
-                  <td className="w-1/2">12.5</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">105</td>
-                  <td className="w-1/2">1500</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500">14.17</td>
-              <td className="border-r border-gray-500">19</td>
-              <td className="border-r border-gray-500">22</td>
-            </tr>
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 130/07</td>
+                <td className="border-r border-gray-500">12</td>
+                <td className="border-r border-gray-500">7</td>
+                <td className="border-r border-gray-500">1300</td>
+                <td className="border-r border-gray-500">550</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
 
-            <tr className="border-t border-gray-500 text-center">
-              <td className="border-r border-gray-500 py-1">AMTH - 140</td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">1/2</td>
-                  <td className="w-1/2">12.5</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">140</td>
-                  <td className="w-1/2">2000</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500">14.17</td>
-              <td className="border-r border-gray-500">19</td>
-              <td className="border-r border-gray-500">22</td>
-            </tr>
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 130/05</td>
+                <td className="border-r border-gray-500">12</td>
+                <td className="border-r border-gray-500">5</td>
+                <td className="border-r border-gray-500">1300</td>
+                <td className="border-r border-gray-500">415</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
 
-            <tr className="border-t border-gray-500 text-center">
-              <td className="border-r border-gray-500 py-1">AMTH - 211</td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">1/2</td>
-                  <td className="w-1/2">12.5</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">211</td>
-                  <td className="w-1/2">3000</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500">8.83</td>
-              <td className="border-r border-gray-500">15</td>
-              <td className="border-r border-gray-500">22</td>
-            </tr>
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 100/14</td>
+                <td className="border-r border-gray-500">14</td>
+                <td className="border-r border-gray-500">14</td>
+                <td className="border-r border-gray-500">1000</td>
+                <td className="border-r border-gray-500">750</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
 
-            <tr className="border-t border-gray-500 text-center">
-              <td className="border-r border-gray-500 py-1">AMTH - 352</td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">1/2</td>
-                  <td className="w-1/2">12.5</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">352</td>
-                  <td className="w-1/2">5000</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500">8.83</td>
-              <td className="border-r border-gray-500">15</td>
-              <td className="border-r border-gray-500">22</td>
-            </tr>
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 100/10</td>
+                <td className="border-r border-gray-500">14</td>
+                <td className="border-r border-gray-500">10</td>
+                <td className="border-r border-gray-500">1000</td>
+                <td className="border-r border-gray-500">550</td>
+                <td className="border-r border-gray-500">30</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
 
-            <tr className="border-t border-gray-500 text-center">
-              <td className="border-r border-gray-500 py-1">AMTH - 500</td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">1/2</td>
-                  <td className="w-1/2">12.5</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">500</td>
-                  <td className="w-1/2">7000</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500">5.65</td>
-              <td className="border-r border-gray-500">12</td>
-              <td className="border-r border-gray-500">22</td>
-            </tr>
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 100/08</td>
+                <td className="border-r border-gray-500">14</td>
+                <td className="border-r border-gray-500">8</td>
+                <td className="border-r border-gray-500">1000</td>
+                <td className="border-r border-gray-500">450</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
 
-            <tr className="border-t border-gray-500 text-center">
-              <td className="border-r border-gray-500 py-1">AMTH - 705</td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">1/2</td>
-                  <td className="w-1/2">12.5</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500 h-full">
-                <tr className="flex">
-                  <td className="w-1/2 border-r border-gray-500">705</td>
-                  <td className="w-1/2">7000</td>
-                </tr>
-              </td>
-              <td className="border-r border-gray-500">5.65</td>
-              <td className="border-r border-gray-500">12</td>
-              <td className="border-r border-gray-500">22</td>
-            </tr>
-          </tbody>
-        </table>
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 100/07</td>
+                <td className="border-r border-gray-500">14</td>
+                <td className="border-r border-gray-500">7</td>
+                <td className="border-r border-gray-500">1000</td>
+                <td className="border-r border-gray-500">350</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
+
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 75/18</td>
+                <td className="border-r border-gray-500">16</td>
+                <td className="border-r border-gray-500">18</td>
+                <td className="border-r border-gray-500">750</td>
+                <td className="border-r border-gray-500">750</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
+
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 75/13</td>
+                <td className="border-r border-gray-500">16</td>
+                <td className="border-r border-gray-500">13</td>
+                <td className="border-r border-gray-500">750</td>
+                <td className="border-r border-gray-500">550</td>
+                <td className="border-r border-gray-500">30</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
+
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 75/10</td>
+                <td className="border-r border-gray-500">16</td>
+                <td className="border-r border-gray-500">10</td>
+                <td className="border-r border-gray-500">750</td>
+                <td className="border-r border-gray-500">450</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
+
+              <tr className="border-t border-gray-500 text-center py-1">
+                <td className="border-r border-gray-500">AMTLP - 75/08</td>
+                <td className="border-r border-gray-500">16</td>
+                <td className="border-r border-gray-500">8</td>
+                <td className="border-r border-gray-500">750</td>
+                <td className="border-r border-gray-500">350</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+                <td className="border-r border-gray-500">1/2&quot;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="table-2 pt-10">
+          <h2 className="mt-10 text-3xl font-bold text-center">
+            AMTLP SERIES PRODUCT RANGE FOR
+            <span className="text-themeCarrot ">
+              &nbsp; HYDROBLASTING & HYDROTEST
+            </span>
+          </h2>
+          <table className="border border-gray-500 w-full mt-8">
+            <thead>
+              <tr className="capitalize">
+                <th className="border-r border-gray-500">model no.</th>
+                <th className="border-r border-gray-500">
+                  plunger <br /> diameter(MM)
+                </th>
+                <th className="border-r border-gray-500">
+                  flow <br /> (LPM)
+                </th>
+                <th className="border-r border-gray-500">
+                  Max. related <br /> pressure (KG/CM<sup>2</sup>)
+                </th>
+                <th className="border-r border-gray-500">
+                  strokes oer <br /> minute
+                </th>
+                <th className="border-r border-gray-500">
+                  motor <br /> (HP)
+                </th>
+                <th className="border-r border-gray-500">inlet</th>
+                <th className="border-r border-gray-500">outlet</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 50/30</td>
+                <td className="border-r border-gray-500">18</td>
+                <td className="border-r border-gray-500">30</td>
+                <td className="border-r border-gray-500">500</td>
+                <td className="border-r border-gray-500">1000</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 48/29</td>
+                <td className="border-r border-gray-500">18</td>
+                <td className="border-r border-gray-500">29</td>
+                <td className="border-r border-gray-500">480</td>
+                <td className="border-r border-gray-500">970</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 48/21</td>
+                <td className="border-r border-gray-500">18</td>
+                <td className="border-r border-gray-500">21</td>
+                <td className="border-r border-gray-500">480</td>
+                <td className="border-r border-gray-500">710</td>
+                <td className="border-r border-gray-500">30</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 47/18</td>
+                <td className="border-r border-gray-500">18</td>
+                <td className="border-r border-gray-500">18</td>
+                <td className="border-r border-gray-500">470</td>
+                <td className="border-r border-gray-500">615</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 47/15</td>
+                <td className="border-r border-gray-500">18</td>
+                <td className="border-r border-gray-500">15</td>
+                <td className="border-r border-gray-500">470</td>
+                <td className="border-r border-gray-500">500</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 40/37</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">37</td>
+                <td className="border-r border-gray-500">400</td>
+                <td className="border-r border-gray-500">1000</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 38/36</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">36</td>
+                <td className="border-r border-gray-500">380</td>
+                <td className="border-r border-gray-500">970</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 39/26</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">26</td>
+                <td className="border-r border-gray-500">390</td>
+                <td className="border-r border-gray-500">710</td>
+                <td className="border-r border-gray-500">30</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 38/23</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">23</td>
+                <td className="border-r border-gray-500">380</td>
+                <td className="border-r border-gray-500">615</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 38/19</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">19</td>
+                <td className="border-r border-gray-500">380</td>
+                <td className="border-r border-gray-500">500</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 32/45</td>
+                <td className="border-r border-gray-500">22</td>
+                <td className="border-r border-gray-500">45</td>
+                <td className="border-r border-gray-500">320</td>
+                <td className="border-r border-gray-500">1000</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 32/44</td>
+                <td className="border-r border-gray-500">22</td>
+                <td className="border-r border-gray-500">44</td>
+                <td className="border-r border-gray-500">320</td>
+                <td className="border-r border-gray-500">970</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 32/32</td>
+                <td className="border-r border-gray-500">22</td>
+                <td className="border-r border-gray-500">44</td>
+                <td className="border-r border-gray-500">320</td>
+                <td className="border-r border-gray-500">710</td>
+                <td className="border-r border-gray-500">30</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 31/28</td>
+                <td className="border-r border-gray-500">22</td>
+                <td className="border-r border-gray-500">28</td>
+                <td className="border-r border-gray-500">310</td>
+                <td className="border-r border-gray-500">615</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 31/23</td>
+                <td className="border-r border-gray-500">22</td>
+                <td className="border-r border-gray-500">23</td>
+                <td className="border-r border-gray-500">310</td>
+                <td className="border-r border-gray-500">500</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 25/59</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">59</td>
+                <td className="border-r border-gray-500">250</td>
+                <td className="border-r border-gray-500">1000</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 24/57</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">57</td>
+                <td className="border-r border-gray-500">240</td>
+                <td className="border-r border-gray-500">970</td>
+                <td className="border-r border-gray-500">40</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 25/42</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">42</td>
+                <td className="border-r border-gray-500">250</td>
+                <td className="border-r border-gray-500">710</td>
+                <td className="border-r border-gray-500">30</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 24/36</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">36</td>
+                <td className="border-r border-gray-500">240</td>
+                <td className="border-r border-gray-500">615</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+
+              <tr className="text-center border-t border-gray-500">
+                <td className="border-r border-gray-500">AMTLP - 24/30</td>
+                <td className="border-r border-gray-500">25</td>
+                <td className="border-r border-gray-500">30</td>
+                <td className="border-r border-gray-500">240</td>
+                <td className="border-r border-gray-500">500</td>
+                <td className="border-r border-gray-500">20</td>
+                <td className="border-r border-gray-500">1&quot;</td>
+                <td className="border-r border-gray-500">3/4&quot;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
       {/* content section  */}

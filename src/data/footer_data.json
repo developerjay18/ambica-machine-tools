@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "hand hydro test pump",
+      "slug": "/hand-hydro-test-pump"
+    },
+    {
+      "name": "motor hydro test pump",
+      "slug": "/motor-hydro-test-pump"
+    },
+    {
+      "name": "series AMTTPP triplex plunger pump",
+      "slug": "/triplex-plunger-pump"
+    },
+    {
+      "name": "series AMTLP high pressure triplex plunger pump",
+      "slug": "/high-pressure-triplex-plunger-pump"
+    },
+    {
+      "name": "series AMTHP high pressure triplex plunger pump",
+      "slug": "amthp-triplex-plunger-pump"
+    }
+  ]
+}
