@@ -195,11 +195,11 @@ export default function Home() {
           <div className="right w-1/2">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718771357/ambica-machine-tools/wfka5xuvcug7vudddoyp.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718980648/ambica-machine-tools/ar4qxfykrmjhohr47mih.jpg"
               }
               alt="welcome-image"
               height={400}
-              width={600}
+              width={650}
               className="ml-auto"
             />
           </div>

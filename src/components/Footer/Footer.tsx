@@ -61,7 +61,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-between pb-2">
+      <div className="flex justify-between pb-3 pt-10">
         <div className="capitalize">
           copyright @ 2024 | AMBICA MACHINE TOOLS
         </div>
