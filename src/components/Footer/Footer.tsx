@@ -38,7 +38,7 @@ function Footer() {
             <div className="h-1 w-[38%] bg-white mt-2"></div>
           </div>
 
-          <div className=" w-[70%] mt-8">
+          <div className=" w-[90%] mt-8">
             <ol className="flex flex-col gap-y-3">
               {products.products.map((item, index) => (
                 <li key={index} className="capitalize text-lg">

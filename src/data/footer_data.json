@@ -17,8 +17,12 @@
       "slug": "/high-pressure-triplex-plunger-pump"
     },
     {
-      "name": "series AMTHP high pressure triplex plunger pump",
+      "name": "series AMTHP high pressure triplex plunger pump (MP)",
       "slug": "amthp-triplex-plunger-pump"
+    },
+    {
+      "name": "series AMTHP high pressure triplex plunger pump (HP)",
+      "slug": "amthp-hp-triplex-plunger-pump"
     }
   ]
 }

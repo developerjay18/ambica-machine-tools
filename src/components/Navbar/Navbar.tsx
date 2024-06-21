@@ -103,7 +103,14 @@ function Navbar() {
                         className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 capitalize"
                         href={"/amthp-triplex-plunger-pump"}
                       >
-                        series AMTHP high pressure Triplex plunger pump
+                        series AMTHP high pressure Triplex plunger pump (MP)
+                      </Link>
+
+                      <Link
+                        className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 capitalize"
+                        href={"/amthp-hp-triplex-plunger-pump"}
+                      >
+                        series AMTHP high pressure Triplex plunger pump (HP)
                       </Link>
                     </div>
                   </div>
