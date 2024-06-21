@@ -93,6 +93,12 @@ function Navbar() {
                       >
                         Triplex plunger pump
                       </Link>
+                      <Link
+                        className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 capitalize"
+                        href={"/high-pressure-triplex-plunger-pump"}
+                      >
+                        high pressure Triplex plunger pump
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-function HandHydroTestPumpPage() {
+function HighTriplexPlungerPumpPage() {
   return (
     <div className="max-w-screen overflow-hidden">
       {/* hero section  */}
@@ -13,7 +13,7 @@ function HandHydroTestPumpPage() {
           <div className="left">
             {/* for larger screens  */}
             <h1 className="text-5xl text-center hidden uppercase font-bold w-[80%] mx-auto lg:block leading-[4rem]">
-              HYDRO TEST PUMP - HAND DRIVEN UNIT
+              HIGH PRESSURE TRIPLEX PLUNGER PUMP
             </h1>
 
             {/* for small screens 
@@ -268,92 +268,175 @@ function HandHydroTestPumpPage() {
 
       {/* content section  */}
       <div className="content p-24 flex flex-col gap-y-20">
-        <div className="flex">
+        <div className="flex gap-x-8">
           <div className="left w-1/2">
             <div className="">
               <h1 className="uppercase text-4xl font-bold">
-                machine
-                <span className="text-themeCarrot"> application</span>
+                material of
+                <span className="text-themeCarrot"> construction</span>
               </h1>
-              <div className="h-1 w-[25%] bg-black mt-4"></div>
+              <div className="h-1 w-[35%] bg-black mt-4"></div>
             </div>
-            <div className=" mt-8">
-              <ul className="text-lg capitalize">
-                <li>boilers, pressure vessels, c.I main casting parts</li>
-                <li>gas cylinder, pipes & tubes parts pumps and valve body</li>
-                <li>subject to hydro testing</li>
+            <div className=" mt-8 pr-12">
+              <ul className="text-lg capitalize flex flex-col gap-y-2">
+                <li>
+                  <div className="">
+                    <span className="font-bold">CRANKSHAFT : </span>
+                    <span>SPHEROIDAL GRAPHITE IRON</span>
+                  </div>
+                  <div className="">
+                    Spheroidal Graphite Iron: Cranksha is made of nitrated,
+                    hardened and tempered Spheroidal Graphite Iron casng
+                  </div>
+                </li>
+
+                <li>
+                  <div className="">
+                    <span className="font-bold">MAIN BODY (CRANK CASE) :</span>
+                    <span>GREY CAST IRON</span>
+                  </div>
+                  <div className="">
+                    Main body in grey iron casng FG-260. With Honned surface
+                    finish bore.
+                  </div>
+                </li>
+
+                <li>
+                  <div className="">
+                    <span className="font-bold"> PISTON (CROSS HEAD) :</span>
+                    <span> ALLOY STEEL</span>
+                  </div>
+                  <div className="">
+                    Alloy steel construcon for hard surface coang and super
+                    finish.
+                  </div>
+                </li>
+
+                <li>
+                  <div className="">
+                    <span className="font-bold"> CONNECTING ROD :</span>
+                    <span> ALLOY STEEL</span>
+                  </div>
+                  <div className="">
+                    Forged steel connecng rods with anfricon bearings. Heavy pin
+                    area construcon, for added load strength.
+                  </div>
+                </li>
+
+                <li>
+                  <div className="">
+                    <span className="font-bold"> BEARING : </span>
+                    <span></span>
+                  </div>
+                  <div className="">
+                    Oversized for maximum life and load distribuon.Self
+                    alignment roller bearing enables it to handle 26% more load
+                    than other pumps.
+                  </div>
+                </li>
+
+                <li>
+                  <div className="">
+                    <span className="font-bold">PUMP HEAD : </span>
+                    <span>STAINLESS STEEL</span>
+                  </div>
+                  <div className="">
+                    Liquid end is made of high corrosion resistant forged SS
+                    304.
+                  </div>
+                </li>
+
+                <li>
+                  <div className="">
+                    <span className="font-bold">COMPLETE VALVE : </span>
+                    <span>STAINLESS STEEL</span>
+                  </div>
+                  <div className="">
+                    Valves made stainless steel for hardened & an corrosion hard
+                    surface coated for long life. High volumetric efficiency
+                    valves operate at 96% efficiency plus.
+                  </div>
+                </li>
+
+                <li>
+                  <div className="">
+                    <span className="font-bold">PLUNGER : </span>
+                    <span>CERAMIC / TUNGSTEN COATED</span>
+                  </div>
+                  <div className="">
+                    Primarily composed of ceramic coated or Tungsten coated.
+                    Surface roughness is extremely good i.e. &lt;0.2 Ra.
+                  </div>
+                </li>
+
+                <li>
+                  <div className="">
+                    <span className="font-bold">PLUNGER SEAL :</span>
+                    <span> PTFE ARAMIDE</span>
+                  </div>
+                  <div className="">
+                    &quot;V&quot; Style strong and ghtens under load or aramide
+                    fiber yarn packing for high compressive & tensile strength
+                    ensure effecve sealing.
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
-          <div className="right w-1/2">
+
+          <div className="right w-1/2 flex flex-col gap-y-20">
             <div className="">
-              <h1 className="uppercase text-4xl font-bold">
-                special
-                <span className="text-themeCarrot"> features</span>
-              </h1>
-              <div className="h-1 w-[22%] bg-black mt-4"></div>
+              <div className="">
+                <h1 className="uppercase text-4xl font-bold">
+                  technical
+                  <span className="text-themeCarrot"> details</span>
+                </h1>
+                <div className="h-1 w-[22%] bg-black mt-4"></div>
+              </div>
+              <div className=" mt-8">
+                <ul className="text-lg capitalize">
+                  <li>Plunger Stroke : 40 mm</li>
+                  <li>Plunger Force : 12.5 KN</li>
+                  <li>Max. Plunger Speed : 1.26 m/sec @ 950 spm</li>
+                  <li>Inlet Pressure Min. / max : 2 to 3 bar</li>
+                  <li>Oil Type : 15 W 40</li>
+                  <li>Oil Capacity : 4.5 Ltr</li>
+                  <li>Max. Liquid Temp. : 70 DEG. C ( 160 DEG. F)</li>
+                  <li>Suction Connection : 3/4&quot; BSPF</li>
+                  <li>Discharge Connection : 1/2&quot; BSPF</li>
+                  <li>Medium : Clean Water</li>
+                  <li>
+                    Available Direct Couple 1000 RPM for 50 Hz (Not 60 Hz) or
+                    1450 RPM For Pulley - belts drives or Gear Box
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div className=" mt-8">
-              <ul className="text-lg capitalize">
-                <li>
-                  portable hand operated system can be easily operated by one
-                  man.
-                </li>
-                <li>
-                  pump unit is mounted on fabricated M.S water tank which stores
-                  liquid for testing.
-                </li>
-                <li>pump does not required any foundation</li>
-                <li>provides self base for testing.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="flex">
-          <div className="left">
+
             <div className="">
-              <h1 className="uppercase text-4xl font-bold">
-                standard accessories
-                <span className="text-themeCarrot"> with M.O.C</span>
-              </h1>
-              <div className="h-1 w-[68%] bg-black mt-4"></div>
-            </div>
-            <div className=" mt-8">
-              <ul className="text-lg capitalize">
-                <li>
-                  pressure release valve made from stainless steel 304 material
-                  (needle type valve).
-                </li>
-                <li>
-                  discharge high pressure hose with attachment of 1/2&quot; inch
-                  BSP connection length 2 mtrs.
-                </li>
-                <li>
-                  stainless steel 304 glycerin filled pressure gauge with
-                  4&quot; inch dial (NABL calibrated).
-                </li>
-                <li>
-                  discharge valve (NRV) made from stainless steel 304 material
-                </li>
-                <li>
-                  pump handle made from mid steel materia. (power coated).
-                </li>
-                <li>
-                  suction pipe & foot valve made from stainless steel 304
-                  material.
-                </li>
-                <li>
-                  pump plunger body (main body) with gland pusher made from mid
-                  steel material with auto finish paint.
-                </li>
-                <li>
-                  distributor body made from stainless steel 304 material.
-                </li>
-                <li>
-                  pump plunger made from stainless steel 304 material with
-                  hardening.
-                </li>
-              </ul>
+              <div className="">
+                <h1 className="uppercase text-4xl font-bold">
+                  special notes &
+                  <span className="text-themeCarrot"> application</span>
+                </h1>
+                <div className="h-1 w-[49%] bg-black mt-4"></div>
+              </div>
+              <div className=" mt-8">
+                <ul className="text-lg capitalize">
+                  <li>Maximum Permissible fluid temperature is 70 Deg. C.</li>
+                  <li>
+                    Power calculations shown in the table is based on maximum
+                    rated pressure; however, for low pressure requirement, power
+                    will also be proportionally reduced. Pump speed lower than
+                    specified in the above chart is also available for special
+                    applications.
+                  </li>
+                  <li>
+                    Volumetric efficiency is considered @ 100% where not
+                    specified.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -362,4 +445,4 @@ function HandHydroTestPumpPage() {
   );
 }
 
-export default HandHydroTestPumpPage;
+export default HighTriplexPlungerPumpPage;
