@@ -9,7 +9,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 function ContactUsPage() {
   return (
-    <div>
+    <div className="max-w-screen overflow-hidden">
       {/* hero section  */}
       <div className="hero-section min-h-[400px] home-hero-bg p-5 lg:p-24">
         <div className="flex text-white pt-8 justify-center h-[300px] items-center gap-y-8">

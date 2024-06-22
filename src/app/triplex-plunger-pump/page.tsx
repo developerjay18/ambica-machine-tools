@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function TriplexPlungerPumpPage() {
   return (
-    <div className="">
+    <div className="max-w-screen overflow-hidden">
       {/* hero section  */}
       <div className="hero-section home-hero-bg p-5 lg:p-24">
         <div className="flex flex-row text-white justify-center items-center gap-y-8 pt-8">
