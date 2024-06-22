@@ -34,16 +34,16 @@ function ContactUsPage() {
           <div className="font-semibold text-[#4a4b54] uppercase tracking-wide mb-3">
             contact us
           </div>
-          <h1 className="uppercase text-5xl font-bold">
+          <h1 className="uppercase text-3xl font-bold">
             get in <span className="text-themeCarrot">touch</span>
           </h1>
-          <div className="h-1 w-[12%] bg-black mt-4"></div>
+          <div className="h-1 w-[7%] bg-black mt-3"></div>
         </div>
 
         <div className="flex mt-12">
           <div className="left w-1/2 flex flex-col gap-y-8">
             <div className="flex gap-x-4">
-              <div className="text-2xl">
+              <div className="text-3xl">
                 <IoMdMail />
               </div>
               <div className=" text-[#4a4b54]">
@@ -74,18 +74,25 @@ function ContactUsPage() {
             </div>
 
             <div className="flex gap-x-4 flex-col gap-y-4">
-              <div className="text-2xl font-semibold capitalize">
+              <div className="text-3xl font-bold uppercase">
                 customer <span className="text-themeCarrot">Care</span>
-                <div className="h-[2px] w-[17%] mt-1 bg-black"></div>
+                <div className="h-1 w-[25%] bg-black mt-3"></div>
               </div>
-              <div className="mr-[220px] text-[#4a4b54]">+91 8155089287</div>
+              <div className="flex gap-x-4">
+                <div className="text-2xl flex">
+                  <IoCall />
+                </div>
+                <div className=" text-[#4a4b54]">+91 8155089287</div>
+              </div>
             </div>
 
             <div className="flex gap-x-4 flex-col gap-y-4">
-              <div className="text-2xl font-semibold capitalize">
-                customer Care <span className="text-themeCarrot">Timing</span>
-                <div className="h-[2px] w-[26%] mt-1 bg-black"></div>
+              <div className="text-3xl font-bold uppercase">
+                customer care &nbsp;
+                <span className="text-themeCarrot">timing</span>
+                <div className="h-1 w-[39%] bg-black mt-3"></div>
               </div>
+              <div className="mr-[220px] text-[#4a4b54]">+91 8155089287</div>
               <div className="mr-[220px] text-[#4a4b54]">
                 <div className="">
                   <span className="capitalize font-bold">Monday &nbsp;</span>
@@ -118,6 +125,7 @@ function ContactUsPage() {
               </div>
             </div>
           </div>
+
           <div className="right w-1/2">
             <form
               action="#"
