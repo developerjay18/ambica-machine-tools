@@ -1,0 +1,71 @@
+{
+  "moc": [
+    {
+      "title": "CRANKSHAFT: ALLOY STEEL",
+      "data": "Crankshaft is made of nitrated, hardened and precision ground for extremely long life and durability."
+    },
+    {
+      "title": "MAIN BODY (CRANK CASE): SPHEROIDAL GRAPHITE IRON",
+      "data": "Main body in spheroidal graphite iron casting with honned surface finish bore."
+    },
+    {
+      "title": "PISTON (CROSS HEAD): GREY IRON & STAINLESS STEEL",
+      "data": "Alloy steel casting piston & stainless steel piston rod are hardened & super finish surface."
+    },
+    {
+      "title": "CONNECTING ROD: ALLOY STEEL",
+      "data": "Forged steel connecting rods with antifriction bearings. Heavy pin area construction, for added load strength."
+    },
+    {
+      "title": "BEARING:",
+      "data": "Oversized for maximum life and load distribution.Self alignment roller bearing enables it to handle 26% more load than other pumps."
+    },
+    {
+      "title": "PUMP HEAD: STAINLESS STEEL",
+      "data": "Liquid end is made of high corrosion resistant forged Stainless Steel 304."
+    },
+    {
+      "title": "COMPLETE VALVE: STAINLESS STEEL",
+      "data": "Valves made stainless steel for hardened & anti corrosion hard surface coated for long life.High volumetric efficiency valves operate at 96% efficiency plus."
+    },
+    {
+      "title": "PLUNGER: CERAMIC / TUNGSTEN COATED",
+      "data": "Primarily composed of ceramic coated or Tungsten coated. Surface roughness is extremely good i.e. <0.2 Ra. (99.5% Alumina Grade)"
+    },
+    {
+      "title": "PLUNGER SEAL: PTFE ARAMIDE",
+      "data": "Aramide fibre yarn packing with PTFE fibre face or carbonaceous aramide yarn packing with GFO fibre face for high compressive & tensile strength ensure effective sealing."
+    },
+    {
+      "title": "WHITE METAL BEARING:",
+      "data": "Antifriction bearings for long life of crankshaft."
+    },
+    {
+      "title": "HELICAL GEAR: ALLOY STEEL",
+      "data": "Helical gear is nitride hardened and precision ground for extremely long life and durability."
+    },
+    {
+      "title": "PINION SHAFT: ALLOY STEEL",
+      "data": "Pinion shaft is nitride hardened and precision ground for extremely long life and durability."
+    }
+  ],
+  "techDetails": [
+    "Plunger Stroke: 75 mm",
+    "Plunger Force: 31.28 KN (3190 Kgf)",
+    "Max. Plunger Speed: 1.32 m/sec @ 530 spm",
+    "Inlet Pressure Min. / max: 2 to 3 bar (Booster pump flow require min 1.5 times of rating flow)",
+    "Oil Type: Sow 90",
+    "Oil Capacity: 5 Ltr",
+    "Max. Liquid Temp.: 70 DEG. C (160 DEG. F)",
+    "Suction Connection : 2\" BSPF",
+    "Discharge Connection: 1/2\" BSPF",
+    "Medium: Clean Water",
+    "AMTTPP Series: Designed in built Gear",
+    "Splash Lubrication/Forced Feed Lubrication"
+  ],
+  "notes": [
+    "Maximum permissible fluid temperature is 70 Deg.C",
+    "Power calculations shown in the table are based on maximum related pressure; however, for low pressure requirements, power will also be proportionally reduced. Pump speed lower than the specified chart is also available for special applications.",
+    "Volumetric efficiency is considered @100% when not specified."
+  ]
+}

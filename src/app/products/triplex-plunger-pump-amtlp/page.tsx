@@ -4,10 +4,10 @@ import React from "react";
 import { FaCircle } from "react-icons/fa";
 import Image from "next/image";
 import Heading from "@/components/Heading/Heading";
-import data from "@/data/triplex_plunger_pump_data.json";
+import data from "@/data/triplex_plunger_pump_amtlp_data.json";
 import TableHeading from "@/components/TableHeading/TableHeading";
 
-function TriplexPlungerPumpPage() {
+function TriplexPlungerPumpAMTLPPage() {
   const { moc, techDetails, notes } = data;
 
   return (
@@ -161,4 +161,4 @@ function TriplexPlungerPumpPage() {
   );
 }
 
-export default TriplexPlungerPumpPage;
+export default TriplexPlungerPumpAMTLPPage;

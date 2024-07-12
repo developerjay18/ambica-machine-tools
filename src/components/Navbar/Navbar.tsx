@@ -114,9 +114,16 @@ function Navbar() {
                       <div className="invisible absolute z-50 flex w-full flex-col bg-white py-1 px-4 text-gray-800 min-w-[300px] shadow-xl group-hover:visible">
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/products/triplex-plunger-pump"}
+                          href={"/products/triplex-plunger-pump-amtlp"}
                         >
-                          triplex plunger pump
+                          triplex plunger pump (AMTLP)
+                        </Link>
+
+                        <Link
+                          className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
+                          href={"/products/triplex-plunger-pump-amtmp"}
+                        >
+                          triplex plunger pump (AMTMP)
                         </Link>
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
