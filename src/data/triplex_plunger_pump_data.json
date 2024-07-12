@@ -1,0 +1,58 @@
+{
+  "moc": [
+    {
+      "title": "CRANKSAHFT SPHEROIDAL GRAPHITE IRON",
+      "data": "Spheroidal Graphite Iron: Cranksha is made of nitrated, hardened and tempered Spheroidal Graphite Iron casTing"
+    },
+    {
+      "title": "MAIN BODY (CRANK CASE) : GREY CAST IRON",
+      "data": "Main body in gray Iron casTing FG-260. with honned surface finished bore."
+    },
+    {
+      "title": "PISTON (CROSS HEAD) : ALLOY STEEL",
+      "data": "Alloy steel construction for hard surface coating and super finish."
+    },
+    {
+      "title": "CONNECTING  ROD : ALLOY STEEL",
+      "data": "Forged steel connecting rods with anfriction bearings. Heavy pin area, construction for load strength."
+    },
+    {
+      "title": "BEARING:",
+      "data": "Oversized for maximum life and load distributon. self alignment roller bearing enables it to handles 26% more load than other pumps."
+    },
+    {
+      "title": "PUMP HEAD : STAINLESS STEEL",
+      "data": "Liquid end is made of high corrision ressistant forged SS 304"
+    },
+    {
+      "title": "COMPLETE VALVE : STAINLESS STEEL",
+      "data": "Vavles made of stainless steel are hardened and anti corrision hard surface caoted for long life. High volumetric efficiency valve operate at 96% efficiency plus."
+    },
+    {
+      "title": "PLUNGER: CERAMIC / TUNGSTEN COATED",
+      "data": "Primarily composed of ceramic coated or Tungsten coated. Surface roughness is extremely good i.e. <0.2 Ra."
+    },
+    {
+      "title": "PLUNGER SEAL : PTFE ARAMIDE",
+      "data": "“V” style strong and tightend under load or aramide fibre yarn packing for high compressive and tensile strength ensure effective sealing"
+    }
+  ],
+  "techDetails": [
+    "Plunger Stroke: 40 mm",
+    "Plunger Force: 12.5 KN",
+    "Max. Plunger Speed: 1.26 m/sec @ 950 spm",
+    "Inlet Pressure Min. / max: 2 to 3 bar",
+    "Oil Type: 15 W 40",
+    "Oil Capacity: 4.5 Ltr",
+    "Max. Liquid Temp.: 70 DEG. C (160 DEG. F)",
+    "Suction Connection: 3/4\" BSPF",
+    "Discharge Connection: 1/2\" BSPF",
+    "Medium: Clean Water",
+    "Available Direct Couple 1000 RPM for 50 Hz (Not 60 Hz) or 1450 RPM For Pulley - belts drives or Gear Box"
+  ],
+  "notes": [
+    "Maximum permissible fluid temperature is 70 Deg.C",
+    "Power calculations shown in the table are based on maximum related pressure; however, for low pressure requirements, power will also be proportionally reduced. Pump speed lower than the specified chart is also available for special applications.",
+    "Volumetric efficiency is considered @100% when not specified."
+  ]
+}

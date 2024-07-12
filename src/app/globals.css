@@ -7,3 +7,7 @@
     text-wrap: balance;
   }
 }
+
+ul.details li{
+  list-style-type: disc;
+}

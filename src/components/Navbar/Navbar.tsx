@@ -114,43 +114,43 @@ function Navbar() {
                       <div className="invisible absolute z-50 flex w-full flex-col bg-white py-1 px-4 text-gray-800 min-w-[300px] shadow-xl group-hover:visible">
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/services/facebook-ads"}
+                          href={"/products/triplex-plunger-pump"}
                         >
-                          Facebook Ads
+                          triplex plunger pump
                         </Link>
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/services/instagram-ads"}
+                          href={"/products/instagram-ads"}
                         >
                           Instagram Ads
                         </Link>
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/services/google-ads"}
+                          href={"/products/google-ads"}
                         >
                           PPC (google ads)
                         </Link>
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/services/social-media-marketing"}
+                          href={"/products/social-media-marketing"}
                         >
                           social media marketing
                         </Link>
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/services/seo"}
+                          href={"/products/seo"}
                         >
                           search engine optimization (SEO)
                         </Link>
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/services/ui-ux-designing"}
+                          href={"/products/ui-ux-designing"}
                         >
                           UI &amp; UX designing
                         </Link>
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/services/website-development"}
+                          href={"/products/website-development"}
                         >
                           website development
                         </Link>

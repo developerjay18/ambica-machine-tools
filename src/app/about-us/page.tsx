@@ -15,7 +15,7 @@ function AboutUsPage() {
     <main>
       {/* banner  */}
       <div className="banner h-[40vh] bg-black text-white flex justify-center items-center text-5xl">
-        BANNER PENDING...
+        ABOUT US
       </div>
 
       {/* hero section  */}
