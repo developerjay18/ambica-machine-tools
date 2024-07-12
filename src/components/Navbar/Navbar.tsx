@@ -125,42 +125,6 @@ function Navbar() {
                         >
                           triplex plunger pump (AMTMP)
                         </Link>
-                        <Link
-                          className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/products/instagram-ads"}
-                        >
-                          Instagram Ads
-                        </Link>
-                        <Link
-                          className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/products/google-ads"}
-                        >
-                          PPC (google ads)
-                        </Link>
-                        <Link
-                          className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/products/social-media-marketing"}
-                        >
-                          social media marketing
-                        </Link>
-                        <Link
-                          className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/products/seo"}
-                        >
-                          search engine optimization (SEO)
-                        </Link>
-                        <Link
-                          className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/products/ui-ux-designing"}
-                        >
-                          UI &amp; UX designing
-                        </Link>
-                        <Link
-                          className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
-                          href={"/products/website-development"}
-                        >
-                          website development
-                        </Link>
                       </div>
                     </div>
                   </div>
