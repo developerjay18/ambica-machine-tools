@@ -1,59 +1,39 @@
 "use client";
 
-import React from "react";
-import Link from "next/link";
+import Heading from "@/components/Heading/Heading";
 import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { FaArrowCircleRight } from "react-icons/fa";
+import { ImQuotesRight } from "react-icons/im";
+import data from "@/data/about_data.json";
 
 function AboutUsPage() {
-  return (
-    <div className="max-w-screen overflow-hidden">
-      {/* hero section  */}
-      <div className="hero-section min-h-[400px] home-hero-bg p-5 lg:p-24">
-        <div className="flex text-white pt-8 justify-center h-[300px] items-center gap-y-8">
-          <div className="left">
-            {/* for larger screens  */}
-            <h1 className="text-5xl text-center hidden uppercase font-bold w-full mx-auto lg:block leading-[4rem]">
-              about us
-            </h1>
+  const { stats } = data;
 
-            {/* for small screens 
-              <h1 className="text-4xl mt-20 lg:hidden block text-center leading-[2.8rem] w-full text-white">
-                Elevate your driving experience &nbsp;
-                <b>with durable and high performance Elito Batteries</b>
-              </h1> */}
-          </div>
-        </div>
+  return (
+    <main>
+      {/* banner  */}
+      <div className="banner h-[40vh] bg-black text-white flex justify-center items-center text-5xl">
+        BANNER PENDING...
       </div>
 
-      {/* welcome section  */}
-      <div className="welcome min-h-screen p-24" id="welcome">
-        <div className="">
-          <h1 className="uppercase text-5xl font-bold">
-            welcome to <span className="text-themeCarrot">ambica machines</span>
-          </h1>
-          <div className="h-1 w-[24%] bg-black mt-4"></div>
-        </div>
-
-        <div className="flex mt-14">
-          <div className="left w-1/2 flex flex-col justify-between gap-y-6">
+      {/* hero section  */}
+      <div className="hero-section px-16 py-10 flex flex-col gap-y-6">
+        <div className="flex justify-center items-center">
+          <div className="left flex flex-col gap-y-5 w-[55%] text-lg">
+            <div className="mb-3">
+              <Heading text1={"who"} text2={"we are"} width={"w-[5%]"} />
+            </div>
             <p>
               Ambica Machine Tools was established in 2006 with an aim to
               provide impeccable engineering and pumping solutions.Mainly, the
               company deals in manufacturing Industrial Pumps, Valves and other
-              Pumping Equipment that fitin your specific industrial
-              requirements. With our exceptional range of industrial pumps, we
-              have catered to the most complex and demanding industrial sectors.
-            </p>
-
-            <p>
-              Our headquarters and the manufacturing unit are located in
-              Ahmedabad, Gujarat, India.Since our establishment, we believed in
-              challenging ourselves to extend our reach to the international
-              market. We have always set higher goals for ourselves and made
-              enduring efforts to deliver the best. Quality has always been a
-              buzzword in our company premises. Keeping professionalism as our
-              hallmark, we direct our efforts to keep &apos;quality&apos; as our
-              mainstay in all our endeavors.
+              Pumping Equipment that thin your specific industrial requirements.
+              With our exceptional range of industrial pumps, we have catered to
+              the most complex and demanding industrial sectors. Our
+              headquarters and the manufacturing unit are located in Ahmedabad,
+              Gujarat, India.
             </p>
 
             <p>
@@ -66,120 +46,126 @@ function AboutUsPage() {
               promise to give an edge over our competitors.
             </p>
           </div>
-          <div className="right w-1/2">
+
+          <div className="right w-[40%] ml-auto">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718771357/ambica-machine-tools/wfka5xuvcug7vudddoyp.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720706496/ambica-machine-tools/about-us/vj1xlqivlmgeep4gspkn.svg"
               }
-              alt="welcome-image"
-              height={400}
-              width={600}
-              className="ml-auto"
+              alt="company-image"
+              height={467}
+              width={573}
+            />
+          </div>
+        </div>
+        <div className="">
+          <button>
+            <Link
+              href={"/"}
+              className="flex items-center gap-x-4 text-lg capitalize border-[3px] rounded-md px-4 py-2 border-themeCarrot bg-themeCarrot text-white font-semibold"
+            >
+              <span>connect with us</span>
+              <span>
+                <FaArrowCircleRight />
+              </span>
+            </Link>
+          </button>
+        </div>
+      </div>
+
+      {/* stats  */}
+      <div className="stats bg-[#242323] flex flex-col gap-y-8 text-white py-10 px-16">
+        <div className="text-5xl text-[#e6e6e6]">
+          <ImQuotesRight />
+        </div>
+
+        <h1 className="text-5xl w-[90%] leading-[3.7rem]">
+          Ambica Machine Tools India&apos;s Largest manufacturer of air -
+          operated double diaphragm pumps.
+        </h1>
+
+        <div className="flex justify-between">
+          {stats.map((item, index) => (
+            <div
+              className="border-l-[6px] w-[25%] border-themeCarrot pl-3 flex flex-col gap-y-2"
+              key={`stats-no-${index + 1}`}
+            >
+              <div className="capitalize font-semibold text-xl">
+                {item.title}
+              </div>
+              <div className="text-5xl">{item.number}+</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* why choose us  */}
+      <div className="why-choose-us px-16 py-10 flex flex-col gap-y-6">
+        <Heading text1={"why"} text2={"choose us?"} width={"w-[5%]"} />
+
+        <div className="flex">
+          <div className="left w-[55%] border-r-[7px] pr-10 border-themeCarrot text-justify flex flex-col gap-y-4">
+            <p>
+              With extensive years of solid industry presence in India, our
+              teams want to offer higher quality AODD Pumps and Barrel Pump with
+              precision in India. Still, our commitment to our clients
+              doesn&apos;t end there. Our employees and partners are on hand to
+              provide backup and support services when you require them, even in
+              India.
+            </p>
+
+            <p>
+              We have an advanced state-of-the-art manufacturing infrastructure
+              in India. A proficient service accompanies our AODD Pumps, Barrel
+              Pump and we will ensure on-time delivery to our clientele across
+              India.
+            </p>
+          </div>
+
+          <div className="right w-[40%] flex justify-center items-center">
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720710075/ambica-machine-tools/about-us/htmm40ljbyxfyqt03kps.svg"
+              }
+              alt="icons"
+              height={112}
+              width={412}
             />
           </div>
         </div>
       </div>
 
-      {/* content section 1  */}
-      <div className="content-1 flex flex-col gap-y-14 p-24 bg-[#f4f4f4]">
-        <div className="flex">
-          <div className="left w-1/2">
-            <div className="">
-              <h1 className="uppercase text-3xl font-bold">
-                breaking <span className="text-themeCarrot">the bars</span>
-              </h1>
-              <div className="h-1 w-[23%] bg-black mt-4"></div>
-            </div>
+      {/* content  */}
+      <div className="content px-16 py-10 flex gap-x-20">
+        <div className="left w-1/2 flex flex-col gap-y-4">
+          <Heading text1={"breaking"} text2={"the bars"} width={"w-[10%]"} />
 
-            <p className="pt-6 pr-10">
-              A true leader comes from an improbable position. We have
-              challenged the stereotypical predictions and have silenced the
-              skeptics with awestruck growth in a short span of time. Having
-              started as a small industrial unit in Gujarat, we have made it to
-              global market with a robust clientele base present across the
-              world in a span of just 14 years. Our incessant urge for superior
-              quality and pursuit for excellence has led this fledging company
-              from Gujarat lead a change in the industry by setting a benchmark.
-            </p>
-          </div>
-
-          <div className="right w-1/2">
-            <div className="">
-              <h1 className="uppercase text-3xl font-bold">
-                blazing <span className="text-themeCarrot">growth</span>
-              </h1>
-              <div className="h-1 w-[23%] bg-black mt-4"></div>
-            </div>
-
-            <p className="pt-6">
-              Ambica Machine Tools has attained manifold growth within a short
-              span of 14 years. With clients present in countries like the
-              Philippines, Nigeria, Pakistan, Bangladesh, Saudi Arabia, Kuwait
-              and many more, we have strong global footprints. Since its
-              inception, the company has made a blazing growth marking a 50 fold
-              increase in its revenue.
-            </p>
-          </div>
+          <p className="text-justify">
+            A true leader comes from an improbable position. We have challenged
+            the stereotypical predictions and have silenced the skeptics with
+            awestruck growth in a short span of time. Having started as a small
+            industrial unit in Gujarat, we have made it to global market with a
+            robust clientele base present across the world in a span of just 14
+            years. Our incessant urge for superior quality and pursuit for
+            excellence has led this fledging company from Gujarat lead a change
+            in the industry by setting a benchmark.
+          </p>
         </div>
 
-        <div className="flex">
-          <div className="left w-1/2">
-            <div className="">
-              <h1 className="uppercase text-3xl font-bold">
-                our <span className="text-themeCarrot">vision</span>
-              </h1>
-              <div className="h-1 w-[10%] bg-black mt-4"></div>
-            </div>
+        <div className="right w-1/2 flex flex-col gap-y-4">
+          <Heading text1={"blazing"} text2={"growth"} width={"w-[20%]"} />
 
-            <p className="pt-6 pr-10">
-              Aspire to attain global leadership by anchoring our roots on the
-              factors of quality, innovation, and customer delight.
-            </p>
-          </div>
-
-          <div className="right w-1/2">
-            <div className="">
-              <h1 className="uppercase text-3xl font-bold">
-                our <span className="text-themeCarrot">mission</span>
-              </h1>
-              <div className="h-1 w-[10%] bg-black mt-4"></div>
-            </div>
-
-            <ul className="pt-6">
-              <li>
-                Sustain as an undisputed leader in India in providing pumping
-                solutions
-              </li>
-              <li>To create satisfying value for all our stakeholders</li>
-              <li>Create a competitive advantage in the market</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="flex">
-          <div className="left">
-            <div className="">
-              <h1 className="uppercase text-3xl font-bold">
-                our <span className="text-themeCarrot">products</span>
-              </h1>
-              <div className="h-1 w-[5%] bg-black mt-4"></div>
-            </div>
-
-            <p className="pt-6">
-              With our exclusive and versatile range of pumps and pumping
-              equipment, we have served a myriad of highly reputed brands in the
-              industry. Our products range from a basic level centrifugal pump
-              to the latest and cutting-edge pumps. We manufacture a variety of
-              Centrifugal Pumps, Polypropylene Pumps, Barrel Pumps, Hydro
-              Testing Pump, Triplex Plunger Pump, Sewage Pump, Electric Motors,
-              Vertical Polypropylene Pump, Magnetic Drive Pump, Rubber Lined
-              Pump, High Pressure Industrial Valves, and Chlorine Gas Cylinder
-              Accessories.
-            </p>
-          </div>
+          <p className="text-justify">
+            Ambica Machine Tools has attained manifold growth within a short
+            span of 14 years. With clients present in countries like the
+            Philippines, Nigeria, Pakistan, Bangladesh, Saudi Arabia, Kuwait and
+            many more, we have strong global footprints. Since its inception,
+            the company has made a blazing growth marking a 50 fold increase in
+            its revenue.
+          </p>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

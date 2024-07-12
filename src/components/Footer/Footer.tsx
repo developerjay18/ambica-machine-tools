@@ -1,14 +1,18 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import products from "@/data/footer_data.json";
+import { FaFacebook } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className="bg-black text-white pt-16 px-24 flex flex-col gap-y-8">
-      <div className="flex justify-between">
-        <div className="flex flex-col gap-y-10 w-[25%]">
+    <footer className="bg-[#242323] px-16 text-[#bdbec1] py-10 flex justify-between">
+      {/* .left  */}
+      <div className="left w-[20%] flex flex-col gap-y-6">
+        <div className="">
           <Link href={"/"}>
             <Image
               src={
@@ -16,63 +20,109 @@ function Footer() {
               }
               alt="logo"
               height={77}
-              width={236}
+              width={200}
             />
           </Link>
-          <Image
-            src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718964190/ambica-machine-tools/wkx0ofqx3cktyogrjvvr.jpg"
-            }
-            alt="scanner"
-            height={246}
-            width={267}
-          />
         </div>
 
-        <div className="w-[30%]">
-          <div className="">
-            <h1 className="uppercase text-3xl font-bold">
-              our
-              <span className="text-themeCarrot"> vision</span>
-            </h1>
-            <div className="h-1 w-[38%] bg-white mt-2"></div>
-          </div>
+        <p>
+          Ambica Machine Tools India&apos;s Largest manufacturer of air -
+          operated double diaphragm Aodd and Barrel pumps.
+        </p>
 
-          <div className=" w-[90%] mt-8">
-            <ol className="flex flex-col gap-y-3">
-              {products.products.map((item, index) => (
-                <li key={index} className="capitalize text-lg">
-                  <Link href={item.slug}>{item.name}</Link>
-                </li>
-              ))}
-            </ol>
-          </div>
+        <div className="text-white text-4xl flex gap-x-3">
+          <Link href={"/"}>
+            <FaFacebook />
+          </Link>
+
+          <Link href={"/"}>
+            <IoLogoWhatsapp />
+          </Link>
+
+          <Link href={"/"}>
+            <FaInstagram />
+          </Link>
+        </div>
+      </div>
+
+      <div className="left-one w-[15%] flex flex-col gap-y-6">
+        <div className="heading">
+          <h1 className="text-3xl uppercase font-bold flex gap-x-2">
+            <span className="text-white">our</span>
+            <span className="text-themeCarrot">QR code</span>
+          </h1>
+          <div className="w-[18%] mt-1 h-1 bg-white"></div>
         </div>
 
-        <div className="w-[40%]">
+        <div className="">
           <Image
             src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1718964189/ambica-machine-tools/hamf11uz0nq3wdln4ry2.jpg"
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720704675/ambica-machine-tools/home/urryiuawcbo77aedtwgz.svg"
             }
-            alt="world-map"
-            height={514}
-            width={535}
+            alt="QR code"
+            width={200}
+            height={200}
           />
         </div>
       </div>
 
-      <div className="flex justify-between pb-3 pt-10">
-        <div className="capitalize">
-          copyright @ 2024 | AMBICA MACHINE TOOLS
+      <div className="right w-[30%] flex flex-col gap-y-6">
+        <div className="heading">
+          <h1 className="text-3xl uppercase font-bold flex gap-x-2">
+            <span className="text-white">our</span>
+            <span className="text-themeCarrot">details</span>
+          </h1>
+          <div className="w-[18%] mt-1 h-1 bg-white"></div>
         </div>
-        <div className="capitalize">
-          Developed by{" "}
-          <span className="hover:text-themeCarrot">
-            <Link href={"https://www.jayraiweb.com"}>Jay Rai Web</Link>
-          </span>{" "}
+
+        <div className="flex flex-col gap-y-3">
+          <div className="flex gap-x-2">
+            <div className="capitalize text-white min-w-[23%]">address:</div>
+            <p>
+              Ambica Machine Tools India&apos;s Largest manufacturer of air -
+              operated double diaphragm Aodd and Barrel pumps.
+            </p>
+          </div>
+
+          <div className="flex gap-x-2">
+            <div className="capitalize text-white min-w-[23%]">phone no:</div>
+            <div className="">
+              <div className="">+91 80000 789789 </div>
+              <div className="">+91 89980 790096 </div>
+            </div>
+          </div>
+
+          <div className="flex gap-x-2">
+            <div className="capitalize text-white min-w-[23%]">email id:</div>
+            <div className="">
+              <div className="">info@ambicamachinetools.com</div>
+              <div className="">sales@ambicamachinetools.com</div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+
+      <div className="left-one w-[23%] flex flex-col gap-y-6">
+        <div className="heading">
+          <h1 className="text-3xl uppercase font-bold flex gap-x-2">
+            <span className="text-white">global</span>
+            <span className="text-themeCarrot">network</span>
+          </h1>
+          <div className="w-[20%] mt-1 h-1 bg-white"></div>
+        </div>
+
+        <div className="">
+          <Image
+            src={
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720706138/ambica-machine-tools/home/d9efxx6zrupzgjpgcsoq.svg"
+            }
+            alt="QR code"
+            width={350}
+            height={200}
+          />
+        </div>
+      </div>
+    </footer>
   );
 }
 
