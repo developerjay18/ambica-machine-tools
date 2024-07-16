@@ -146,6 +146,20 @@ function Navbar() {
                         >
                           triplex plunger pump (AMTTPP)
                         </Link>
+
+                        <Link
+                          className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
+                          href={"/products/motor-hydro-test-pump"}
+                        >
+                          motor hydro test pump
+                        </Link>
+
+                        <Link
+                          className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
+                          href={"/products/triplex-plunger-pump-jhp"}
+                        >
+                          triplex plunger pump (JHP)
+                        </Link>
                       </div>
                     </div>
                   </div>

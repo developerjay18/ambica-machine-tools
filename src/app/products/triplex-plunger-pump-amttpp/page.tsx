@@ -136,20 +136,118 @@ function TriplexPlungerPumpAMTTPPPage() {
 
       {/* tables  */}
       <div className="table-one px-16 py-10 flex flex-col gap-y-10">
-        <TableHeading
-          text1={"technical"}
-          text2={"specifications"}
-        />
+        <TableHeading text1={"technical"} text2={"specifications"} />
         <div className="">
-          <Image
-            src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720784027/ambica-machine-tools/triplex-plunger-pump-amttpp/lugjv9hehedmxd2tojta.png"
-            }
-            alt="table-image"
-            height={537}
-            width={1411}
-            className="border-[5px] border-themeCarrot"
-          />
+          <table>
+            <tr>
+              <th>Specifications</th>
+              <th colSpan={5} className="text-center">Model</th>
+            </tr>
+            <tr>
+              <th></th>
+              <th>AMTTPP - 18/20</th>
+              <th>AMTTPP-35/35</th>
+              <th>AMTTPP - 50/50</th>
+              <th>AMTTPP-100/20</th>
+              <th>AMTTPP - 140/20</th>
+            </tr>
+            <tr>
+              <td>No. of Piston</td>
+              <td>2</td>
+              <td>3</td>
+              <td>3</td>
+              <td>3</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>Max. Pressure</td>
+              <td>256 PSI (18 KG.)</td>
+              <td>500 PSI (35 KG.)</td>
+              <td>700 PSI (50 KG.)</td>
+              <td>1422 PSI (100 KG.)</td>
+              <td>256 PSI (18 KG.)</td>
+            </tr>
+            <tr>
+              <td>Pump RPM</td>
+              <td>600</td>
+              <td>540</td>
+              <td>600</td>
+              <td>600</td>
+              <td>600</td>
+            </tr>
+            <tr>
+              <td>Suction Capacity (LPM)</td>
+              <td>15</td>
+              <td>35</td>
+              <td>50</td>
+              <td>20</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>Electric motor</td>
+              <td>2 H.P. (1440 RPM)</td>
+              <td>3 H.P. (1440 RPM)</td>
+              <td>5 H.P. (1440 RPM)</td>
+              <td>7.5 H.P. (1440 RPM)</td>
+              <td>10 H.P. (1440 RPM)</td>
+            </tr>
+            <tr>
+              <td>V - Belt Size</td>
+              <td>B-34</td>
+              <td>A-40</td>
+              <td>A-42</td>
+              <td>B-20</td>
+              <td>B-20</td>
+            </tr>
+            <tr>
+              <td>Weight</td>
+              <td>15 KG.</td>
+              <td>20 KG.</td>
+              <td>25 KG.</td>
+              <td>60 KG.</td>
+              <td>60 KG.</td>
+            </tr>
+            <tr>
+              <td>Main Body</td>
+              <td>C.I.</td>
+              <td>ALUMINUM</td>
+              <td>C.I.</td>
+              <td>C.I.</td>
+              <td>C.I.</td>
+            </tr>
+            <tr>
+              <td>Head</td>
+              <td>SS 304</td>
+              <td>SS 304</td>
+              <td>SS 304</td>
+              <td>SS 304</td>
+              <td>SS 304</td>
+            </tr>
+            <tr>
+              <td>Piston</td>
+              <td>SS 304</td>
+              <td>SS 304</td>
+              <td>SS 304</td>
+              <td>SS 304</td>
+              <td>SS 304</td>
+            </tr>
+            <tr>
+              <td>Stroke Length</td>
+              <td>20</td>
+              <td>20</td>
+              <td>30</td>
+              <td>25</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Piston Diameter</td>
+              <td>30</td>
+              <td>30</td>
+              <td>30</td>
+              <td>40</td>
+              <td>40</td>
+            </tr>
+          </table>
         </div>
       </div>
     </main>

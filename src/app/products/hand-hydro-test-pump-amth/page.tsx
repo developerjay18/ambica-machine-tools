@@ -41,7 +41,7 @@ function HandHydroTestPumpAMTHPage() {
 
       {/* product images  */}
       <div className="product-images px-16 py-10 flex flex-col gap-y-10">
-        <Heading text1={"triplex"} text2={"plunger pump"} width={"w-[8%]"} />
+        <Heading text1={"hand hydro"} text2={"test pump"} width={"w-[15%]"} />
 
         <div className="flex justify-around">
           <div className="w-[40%]">
@@ -116,15 +116,139 @@ function HandHydroTestPumpAMTHPage() {
       {/* tables  */}
       <div className="table-one px-16 py-10 flex flex-col gap-y-10">
         <div className="">
-          <Image
-            src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720774998/ambica-machine-tools/hand-hydro-test-pump-amth/lcdtewzx6pet4cklywry.png"
-            }
-            alt="table-image"
-            height={537}
-            width={1411}
-            className="border-[5px] border-themeCarrot"
-          />
+          <table>
+            <tr>
+              <th
+                colSpan={2}
+                rowSpan={2}
+                style={{ backgroundColor: "#673AB7", color: "white" }}
+              >
+                Pump Model No
+              </th>
+              <th
+                colSpan={2}
+                style={{ backgroundColor: "#F44336", color: "white" }}
+              >
+                Discharge Size
+              </th>
+              <th
+                colSpan={2}
+                style={{ backgroundColor: "#F44336", color: "white" }}
+              >
+                Max. Pressure
+              </th>
+              <th style={{ backgroundColor: "#F44336", color: "white" }}>
+                Out Put
+              </th>
+              <th style={{ backgroundColor: "#F44336", color: "white" }}>
+                Plunger
+              </th>
+              <th style={{ backgroundColor: "#F44336", color: "white" }}>
+                Water Tank
+              </th>
+            </tr>
+            <tr>
+              <th style={{ backgroundColor: "#F44336", color: "white" }}>
+                BSP
+              </th>
+              <th style={{ backgroundColor: "#F44336", color: "white" }}>MM</th>
+              <th style={{ backgroundColor: "#F44336", color: "white" }}>
+                Kg/Cm²
+              </th>
+              <th style={{ backgroundColor: "#F44336", color: "white" }}>
+                P.S.I
+              </th>
+              <th style={{ backgroundColor: "#F44336", color: "white" }}>
+                CC / Stroke
+              </th>
+              <th style={{ backgroundColor: "#F44336", color: "white" }}>
+                Size in mm
+              </th>
+              <th style={{ backgroundColor: "#F44336", color: "white" }}>
+                Size in Ltrs.
+              </th>
+            </tr>
+            <tr>
+              <td colSpan={2}>AMTH - 35</td>
+              <td>1/2</td>
+              <td>12.5</td>
+              <td>35</td>
+              <td>500</td>
+              <td>15.70</td>
+              <td>22</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td colSpan={2}>AMTH - 70</td>
+              <td>1/2</td>
+              <td>12.5</td>
+              <td>70</td>
+              <td>1000</td>
+              <td>15.70</td>
+              <td>22</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td colSpan={2}>AMTH - 105</td>
+              <td>1/2</td>
+              <td>12.5</td>
+              <td>105</td>
+              <td>1500</td>
+              <td>14.17</td>
+              <td>19</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td colSpan={2}>AMTH - 140</td>
+              <td>1/2</td>
+              <td>12.5</td>
+              <td>140</td>
+              <td>2000</td>
+              <td>14.17</td>
+              <td>19</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td colSpan={2}>AMTH - 211</td>
+              <td>1/2</td>
+              <td>12.5</td>
+              <td>211</td>
+              <td>3000</td>
+              <td>8.83</td>
+              <td>15</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td colSpan={2}>AMTH - 352</td>
+              <td>1/2</td>
+              <td>12.5</td>
+              <td>352</td>
+              <td>5000</td>
+              <td>8.83</td>
+              <td>15</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td colSpan={2}>AMTH - 500</td>
+              <td>1/2</td>
+              <td>12.5</td>
+              <td>500</td>
+              <td>7000</td>
+              <td>5.65</td>
+              <td>12</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td colSpan={2}>AMTH - 705</td>
+              <td>1/2</td>
+              <td>12.5</td>
+              <td>705</td>
+              <td>10000</td>
+              <td>5.65</td>
+              <td>12</td>
+              <td>22</td>
+            </tr>
+          </table>
         </div>
       </div>
     </main>
