@@ -173,10 +173,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 40
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -199,10 +199,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 30
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -225,10 +225,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 25
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -251,10 +251,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 20
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -277,10 +277,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 40
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -303,10 +303,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 30
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -329,10 +329,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 25
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -355,10 +355,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 20
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -381,10 +381,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 40
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -407,10 +407,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 30
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -433,10 +433,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 25
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
             <tr>
@@ -459,10 +459,10 @@ function TriplexPlungerPumpAMTLPPage() {
                 20
               </td>
               <td align="center" valign="middle">
-                3/4"
+                3/4&quot;
               </td>
               <td align="center" valign="middle">
-                1/2"
+                1/2&quot;
               </td>
             </tr>
           </table>
@@ -495,8 +495,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>500</td>
               <td>1000</td>
               <td>40</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 48/29</td>
@@ -505,8 +505,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>480</td>
               <td>970</td>
               <td>40</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 48/21</td>
@@ -515,8 +515,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>480</td>
               <td>710</td>
               <td>30</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 47/18</td>
@@ -525,8 +525,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>470</td>
               <td>615</td>
               <td>25</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 47/15</td>
@@ -535,8 +535,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>470</td>
               <td>500</td>
               <td>20</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 40/37</td>
@@ -545,8 +545,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>400</td>
               <td>1000</td>
               <td>40</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 38/36</td>
@@ -555,8 +555,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>380</td>
               <td>970</td>
               <td>40</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 39/26</td>
@@ -565,8 +565,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>390</td>
               <td>710</td>
               <td>30</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 38/23</td>
@@ -575,8 +575,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>380</td>
               <td>615</td>
               <td>25</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 38/19</td>
@@ -585,8 +585,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>380</td>
               <td>500</td>
               <td>20</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 32/45</td>
@@ -595,8 +595,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>320</td>
               <td>1000</td>
               <td>40</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 32/44</td>
@@ -605,8 +605,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>320</td>
               <td>970</td>
               <td>40</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 32/32</td>
@@ -615,8 +615,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>320</td>
               <td>710</td>
               <td>30</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 31/28</td>
@@ -625,8 +625,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>310</td>
               <td>615</td>
               <td>25</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 31/23</td>
@@ -635,8 +635,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>310</td>
               <td>500</td>
               <td>20</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 25/59</td>
@@ -645,8 +645,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>250</td>
               <td>1000</td>
               <td>40</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 24/57</td>
@@ -655,8 +655,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>240</td>
               <td>970</td>
               <td>40</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 25/42</td>
@@ -665,8 +665,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>250</td>
               <td>710</td>
               <td>30</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 24/36</td>
@@ -675,8 +675,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>240</td>
               <td>615</td>
               <td>25</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
             <tr>
               <td>AMTLP - 24/30</td>
@@ -685,8 +685,8 @@ function TriplexPlungerPumpAMTLPPage() {
               <td>240</td>
               <td>500</td>
               <td>20</td>
-              <td>1"</td>
-              <td>3/4"</td>
+              <td>1&quot;</td>
+              <td>3/4&quot;</td>
             </tr>
           </table>
         </div>
