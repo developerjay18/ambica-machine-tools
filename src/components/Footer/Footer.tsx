@@ -26,8 +26,8 @@ function Footer() {
         </div>
 
         <p>
-          Ambica Machine Tools India&apos;s Largest manufacturer of air -
-          operated double diaphragm Aodd and Barrel pumps.
+          Ambica Machine Tools India&apos;s Largest manufacturer of Industrial
+          Pumps and Valves.
         </p>
 
         <div className="text-white text-4xl flex gap-x-3">
@@ -79,8 +79,9 @@ function Footer() {
           <div className="flex gap-x-2">
             <div className="capitalize text-white min-w-[23%]">address:</div>
             <p>
-              Ambica Machine Tools India&apos;s Largest manufacturer of air -
-              operated double diaphragm Aodd and Barrel pumps.
+              Plot No.24/25-1, Zaveri Ind. Estate, Opp. Shubh Estate Gate,
+              Kathwada - Singarva Road, Kathwada, Ahmedabad-382430.Gujarat -
+              INDIA.
             </p>
           </div>
 

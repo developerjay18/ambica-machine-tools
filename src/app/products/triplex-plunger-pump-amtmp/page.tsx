@@ -126,15 +126,98 @@ function TriplexPlungerPumpAMTMPPage() {
         />
 
         <div className="">
-          <Image
-            src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720756782/ambica-machine-tools/triplex-plunger-pump-amtmp/h2yz6vgm7arl4vspici0.png"
-            }
-            alt="table-image"
-            height={537}
-            width={1411}
-            className="border-[5px] border-themeCarrot"
-          />
+          <table>
+            <tr>
+              <th>MODEL NO:</th>
+              <th>PLUNG DIA</th>
+              <th>FLOW RATE</th>
+              <th>60HP</th>
+              <th>75HP</th>
+              <th>100HP</th>
+              <th>120HP</th>
+            </tr>
+            <tr>
+              <td>AMTMP - 62/35</td>
+              <td>20</td>
+              <td>35</td>
+              <td>620</td>
+              <td>750</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>AMTMP - 52/42</td>
+              <td>22</td>
+              <td>42</td>
+              <td>520</td>
+              <td>680</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>AMTMP - 43/52</td>
+              <td>24</td>
+              <td>52</td>
+              <td>430</td>
+              <td>530</td>
+              <td>720</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>AMTMP - 36/62</td>
+              <td>26</td>
+              <td>62</td>
+              <td>360</td>
+              <td>450</td>
+              <td>600</td>
+              <td>745</td>
+            </tr>
+            <tr>
+              <td>AMTMP - 31/70</td>
+              <td>28</td>
+              <td>70</td>
+              <td>310</td>
+              <td>375</td>
+              <td>510</td>
+              <td>660</td>
+            </tr>
+            <tr>
+              <td>AMTMP - 27/80</td>
+              <td>30</td>
+              <td>80</td>
+              <td>270</td>
+              <td>330</td>
+              <td>450</td>
+              <td>580</td>
+            </tr>
+            <tr>
+              <td>AMTMP - 24/90</td>
+              <td>32</td>
+              <td>90</td>
+              <td>240</td>
+              <td>330</td>
+              <td>400</td>
+              <td>515</td>
+            </tr>
+            <tr>
+              <td>AMTMP - 19/115</td>
+              <td>36</td>
+              <td>115</td>
+              <td>190</td>
+              <td>230</td>
+              <td>315</td>
+              <td>400</td>
+            </tr>
+            <tr>
+              <td>AMTMP - 15/145</td>
+              <td>40</td>
+              <td>145</td>
+              <td>150</td>
+              <td>185</td>
+              <td>250</td>
+              <td>320</td>
+            </tr>
+          </table>
         </div>
       </div>
     </main>

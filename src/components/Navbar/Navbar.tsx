@@ -53,7 +53,7 @@ function Navbar() {
           <div className="right">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720511821/ambica-machine-tools/wqa2vbein6niilld46uu.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721142230/ambica-machine-tools/gb9fazncg3wzsq661tzi.png"
               }
               alt="certification-logo"
               height={100}
@@ -62,7 +62,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="down flex items-center justify-between px-16 py-2 bg-themeCarrot">
+        <div className="down flex items-center justify-between px-16 py-2 bg-[#CB4143]">
           <div className="left">
             <Link href={"/"}>
               <Image

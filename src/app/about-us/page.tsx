@@ -19,7 +19,7 @@ function AboutUsPage() {
       </div>
 
       {/* hero section  */}
-      <div className="hero-section px-16 py-10 flex flex-col gap-y-6">
+      <div className="hero-section px-16 py-8 flex flex-col gap-y-6">
         <div className="flex justify-center items-center">
           <div className="left flex flex-col gap-y-5 w-[55%] text-lg">
             <div className="mb-3">
@@ -74,14 +74,13 @@ function AboutUsPage() {
       </div>
 
       {/* stats  */}
-      <div className="stats bg-[#242323] flex flex-col gap-y-8 text-white py-10 px-16">
+      <div className="stats bg-[#242323] flex flex-col gap-y-8 text-white py-8 px-16">
         <div className="text-5xl text-[#e6e6e6]">
           <ImQuotesRight />
         </div>
 
         <h1 className="text-5xl w-[90%] leading-[3.7rem]">
-          Ambica Machine Tools India&apos;s Largest manufacturer of air -
-          operated double diaphragm pumps.
+          Ambica Machine Tools India&apos;s Largest manufacturer of Industrial Pumps and Valves.
         </h1>
 
         <div className="flex justify-between">
@@ -100,7 +99,7 @@ function AboutUsPage() {
       </div>
 
       {/* why choose us  */}
-      <div className="why-choose-us px-16 py-10 flex flex-col gap-y-6">
+      <div className="why-choose-us px-16 py-8 flex flex-col gap-y-6">
         <Heading text1={"why"} text2={"choose us?"} width={"w-[5%]"} />
 
         <div className="flex">
@@ -136,7 +135,7 @@ function AboutUsPage() {
       </div>
 
       {/* content  */}
-      <div className="content px-16 py-10 flex gap-x-20">
+      <div className="content px-16 py-8 flex gap-x-20">
         <div className="left w-1/2 flex flex-col gap-y-4">
           <Heading text1={"breaking"} text2={"the bars"} width={"w-[10%]"} />
 

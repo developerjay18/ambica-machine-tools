@@ -126,15 +126,83 @@ function TriplexPlungerPumpAMTHPPage() {
         />
 
         <div className="">
-          <Image
-            src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720767642/ambica-machine-tools/triplex-plunger-pump-amthp/xlziythhzgtwhrso8al4.png"
-            }
-            alt="table-image"
-            height={537}
-            width={1411}
-            className="border-[5px] border-themeCarrot"
-          />
+          <table>
+            <tr>
+              <th rowSpan={2}>Model No.</th>
+              <th rowSpan={2}>Plunger Dia. (mm)</th>
+              <th rowSpan={2}>Flow Rate (LPM)</th>
+              <th colSpan={3}>Crank Shaft speeds 435 Min. with 1450 RPM</th>
+            </tr>
+            <tr>
+              <th>100 HP / 75 KW</th>
+              <th>125 HP / 90 KW</th>
+              <th>150 HP / 110 KW</th>
+            </tr>
+            <tr>
+              <td>AMTHP-13/38</td>
+              <td>20</td>
+              <td>38</td>
+              <td>950</td>
+              <td>1200</td>
+              <td>1300</td>
+            </tr>
+            <tr>
+              <td>AMTHP - 10/47</td>
+              <td>22</td>
+              <td>47</td>
+              <td>800</td>
+              <td>950</td>
+              <td>1000</td>
+            </tr>
+            <tr>
+              <td>AMTHP - 95/56</td>
+              <td>24</td>
+              <td>56</td>
+              <td>650</td>
+              <td>800</td>
+              <td>950</td>
+            </tr>
+            <tr>
+              <td>AMTHP-80/65</td>
+              <td>26</td>
+              <td>65</td>
+              <td>550</td>
+              <td>700</td>
+              <td>800</td>
+            </tr>
+            <tr>
+              <td>AMTHP - 70/76</td>
+              <td>28</td>
+              <td>76</td>
+              <td>480</td>
+              <td>600</td>
+              <td>700</td>
+            </tr>
+            <tr>
+              <td>AMTHP-60/87</td>
+              <td>30</td>
+              <td>87</td>
+              <td>410</td>
+              <td>500</td>
+              <td>600</td>
+            </tr>
+            <tr>
+              <td>AMTHP - 52/99</td>
+              <td>32</td>
+              <td>99</td>
+              <td>375</td>
+              <td>450</td>
+              <td>525</td>
+            </tr>
+            <tr>
+              <td>AMTHP - 40/126</td>
+              <td>36</td>
+              <td>126</td>
+              <td>280</td>
+              <td>350</td>
+              <td>400</td>
+            </tr>
+          </table>
         </div>
       </div>
     </main>

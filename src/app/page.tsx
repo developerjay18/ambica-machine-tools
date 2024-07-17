@@ -56,7 +56,7 @@ export default function Home() {
       </div>
 
       {/* welcome section  */}
-      <div className="welcome-section px-16 py-12 flex flex-col gap-y-10">
+      <div className="welcome-section px-16 py-8 flex flex-col gap-y-10">
         {/* heading --  */}
         <Heading
           text1={"welcome to"}
@@ -134,7 +134,7 @@ export default function Home() {
       </div>
 
       {/* vision and mission  */}
-      <div className="vision-and-mission px-16 py-14">
+      <div className="vision-and-mission px-16 py-8">
         {/* heading --  */}
         <Heading text1={"our"} text2={"vision & mission"} width={"w-[4.5%]"} />
 
@@ -191,7 +191,7 @@ export default function Home() {
       </div>
 
       {/* products section  */}
-      <div className="product-section px-16 py-14 flex flex-col gap-y-10">
+      <div className="product-section px-16 py-8 flex flex-col gap-y-10">
         {/* heading  */}
         <Heading text1={"our"} text2={"products"} width={"w-[4.5%]"} />
 
@@ -220,7 +220,7 @@ export default function Home() {
       </div>
 
       {/* product's range section  */}
-      <div className="products-range py-14 flex flex-col gap-y-10 max-w-screen overflow-hidden">
+      <div className="products-range py-8 flex flex-col gap-y-10 max-w-screen overflow-hidden">
         {/* heading  */}
         <div className="px-16">
           <Heading text1={"our"} text2={"product's range"} width={"w-[4.5%]"} />
@@ -256,7 +256,7 @@ export default function Home() {
       </div>
 
       {/* certificates section  */}
-      <div className="certificates py-10 px-16 flex flex-col gap-y-10">
+      <div className="certificates py-8 px-16 flex flex-col gap-y-10">
         <div>
           <Heading text1={"our"} text2={"certificates"} width={"w-[4.5%]"} />
         </div>
@@ -276,21 +276,24 @@ export default function Home() {
       </div>
 
       {/* contact section  */}
-      <div className="contact px-16 py-10">
+      <div className="contact px-16 py-8">
         <Heading text1={"get in"} text2={"touch"} width={"w-[7%]"} />
 
         <div className="content">
           <div className="contact" id="contact">
             <div className="flex mt-12">
               <div className="left w-1/2 flex flex-col gap-y-6">
+                <h2 className="uppercase font-bold text-xl text-themeCarrot">
+                  ambica machine tools
+                </h2>
                 <div className="flex gap-x-4">
-                  <div className="text-3xl">
-                    <IoMail />
+                  <div className="text-2xl">
+                    <FaLocationDot />
                   </div>
-                  <div className=" text-[#4a4b54]">
-                    info@ambicamachinetools.com <br />{" "}
-                    sales@ambicamachinetools.com <br />
-                    ambicamachinetools@yahoo.com
+                  <div className="mr-[220px] text-[#4a4b54]">
+                    Plot No.24/25-1, Zaveri Ind. Estate, Opp. Shubh Estate Gate,
+                    Kathwada - Singarva Road, Kathwada, Ahmedabad-382430.Gujarat
+                    - INDIA.
                   </div>
                 </div>
 
@@ -304,13 +307,13 @@ export default function Home() {
                 </div>
 
                 <div className="flex gap-x-4">
-                  <div className="text-2xl">
-                    <FaLocationDot />
+                  <div className="text-3xl">
+                    <IoMail />
                   </div>
-                  <div className="mr-[220px] text-[#4a4b54]">
-                    Plot No.24/25-1, Zaveri Ind. Estate, Opp. Shubh Estate Gate,
-                    Kathwada - Singarva Road, Kathwada, Ahmedabad-382430.Gujarat
-                    - INDIA.
+                  <div className=" text-[#4a4b54]">
+                    info@ambicamachinetools.com <br />{" "}
+                    sales@ambicamachinetools.com <br />
+                    ambicamachinetools@yahoo.com
                   </div>
                 </div>
               </div>

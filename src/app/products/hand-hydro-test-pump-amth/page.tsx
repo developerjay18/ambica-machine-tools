@@ -118,55 +118,23 @@ function HandHydroTestPumpAMTHPage() {
         <div className="">
           <table>
             <tr>
-              <th
-                colSpan={2}
-                rowSpan={2}
-                style={{ backgroundColor: "#673AB7", color: "white" }}
-              >
+              <th colSpan={2} rowSpan={2}>
                 Pump Model No
               </th>
-              <th
-                colSpan={2}
-                style={{ backgroundColor: "#F44336", color: "white" }}
-              >
-                Discharge Size
-              </th>
-              <th
-                colSpan={2}
-                style={{ backgroundColor: "#F44336", color: "white" }}
-              >
-                Max. Pressure
-              </th>
-              <th style={{ backgroundColor: "#F44336", color: "white" }}>
-                Out Put
-              </th>
-              <th style={{ backgroundColor: "#F44336", color: "white" }}>
-                Plunger
-              </th>
-              <th style={{ backgroundColor: "#F44336", color: "white" }}>
-                Water Tank
-              </th>
+              <th colSpan={2}>Discharge Size</th>
+              <th colSpan={2}>Max. Pressure</th>
+              <th>Out Put</th>
+              <th>Plunger</th>
+              <th>Water Tank</th>
             </tr>
             <tr>
-              <th style={{ backgroundColor: "#F44336", color: "white" }}>
-                BSP
-              </th>
-              <th style={{ backgroundColor: "#F44336", color: "white" }}>MM</th>
-              <th style={{ backgroundColor: "#F44336", color: "white" }}>
-                Kg/Cm²
-              </th>
-              <th style={{ backgroundColor: "#F44336", color: "white" }}>
-                P.S.I
-              </th>
-              <th style={{ backgroundColor: "#F44336", color: "white" }}>
-                CC / Stroke
-              </th>
-              <th style={{ backgroundColor: "#F44336", color: "white" }}>
-                Size in mm
-              </th>
-              <th style={{ backgroundColor: "#F44336", color: "white" }}>
-                Size in Ltrs.
-              </th>
+              <th>BSP</th>
+              <th>MM</th>
+              <th>Kg/Cm²</th>
+              <th>P.S.I</th>
+              <th>CC / Stroke</th>
+              <th>Size in mm</th>
+              <th>Size in Ltrs.</th>
             </tr>
             <tr>
               <td colSpan={2}>AMTH - 35</td>

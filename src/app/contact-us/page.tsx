@@ -16,7 +16,7 @@ function ContactUsPage() {
       </div>
 
       {/* contact form  */}
-      <div className="contact-form px-16 py-10 flex flex-col gap-y-10">
+      <div className="contact-form px-16 py-8 flex flex-col gap-y-10">
         <Heading text1={"get in"} text2={"touch"} width={"w-[10%]"} />
 
         <div className="flex justify-around">
@@ -29,9 +29,7 @@ function ContactUsPage() {
               height={360}
               width={491}
             />
-            <h2 className="uppercase text-themeCarrot text-2xl text-center w-[491px] py-2 font-bold">
-              ambica machine tools
-            </h2>
+           
           </div>
 
           <div className="right w-[50%]">
@@ -72,7 +70,7 @@ function ContactUsPage() {
                     type="text"
                     name="product"
                     id="product"
-                    placeholder="your product"
+                    placeholder="product name"
                     className="border-b-2 capitalize px-2 py-2 focus:outline-none border-[#4a4b54] mt-2"
                   />
                 </div>
@@ -122,7 +120,7 @@ function ContactUsPage() {
       </div>
 
       {/* information  */}
-      <div className="information px-16 py-10">
+      <div className="information px-16 py-8">
         <div className="box rounded-xl bg-[#f4f4f4] p-8 flex flex-col gap-y-10">
           <Heading
             text1={"head office"}
