@@ -40,7 +40,7 @@ function MotorHydroTestPumpPage() {
       </div>
 
       {/* product images  */}
-      <div className="product-images px-16 py-10 flex flex-col gap-y-10">
+      <div className="product-images px-16 py-8 flex flex-col gap-y-10">
         <Heading text1={"motor hydro"} text2={"test pump"} width={"w-[16%]"} />
 
         <div className="flex justify-between">

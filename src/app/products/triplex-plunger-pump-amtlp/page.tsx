@@ -14,7 +14,7 @@ function TriplexPlungerPumpAMTLPPage() {
     <main>
       {/* banner  */}
       <div className="banner h-[40vh] bg-[#2e2e2e] text-white flex text-5xl px-16 items-center">
-        <div className="left w-[70%] uppercase font-semibold flex flex-col gap-y-3">
+        <div className="left w-[50%] uppercase font-semibold flex flex-col gap-y-3">
           <h1>product</h1>
           <div className="flex items-center gap-x-2">
             <div className="w-20 h-1 bg-white"></div>
@@ -24,9 +24,20 @@ function TriplexPlungerPumpAMTLPPage() {
             </div>
             <div className="w-20 h-1 bg-white"></div>
           </div>
-          <h1>TRIPLEX PLUNGER PUMP (SERIES AMTLP)</h1>
+          <h1 className="leading-[3.5rem]">
+            TRIPLEX PLUNGER PUMP <br /> (SERIES AMTLP)
+          </h1>
         </div>
-        <div className="right w-[30%] mx-auto">
+        <div className="right w-[50%] mx-auto flex">
+          <Image
+            src={
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720748015/ambica-machine-tools/triplex-plunger-pump/eur7wibamqv5mavlmd9j.svg"
+            }
+            alt="product-banner-image"
+            height={231}
+            width={326}
+            className="mx-auto"
+          />
           <Image
             src={
               "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720748015/ambica-machine-tools/triplex-plunger-pump/eur7wibamqv5mavlmd9j.svg"
@@ -40,30 +51,54 @@ function TriplexPlungerPumpAMTLPPage() {
       </div>
 
       {/* product images  */}
-      <div className="product-images px-16 py-10 flex flex-col gap-y-10">
-        <Heading text1={"triplex"} text2={"plunger pump"} width={"w-[8%]"} />
+      <div className="product-images px-16 py-8 flex flex-col gap-y-10">
+        <Heading text1={"motor hydro"} text2={"test pump"} width={"w-[16%]"} />
 
-        <div className="flex justify-around">
-          <div className="w-[40%]">
+        <div className="flex justify-between">
+          <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720748484/ambica-machine-tools/triplex-plunger-pump/ynrbzugrqllki9xwfrme.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
               }
               alt="product-image"
               height={423}
-              width={567}
+              width={367}
               className="rounded-xl shadow-lg"
             />
           </div>
 
-          <div className="w-[40%]">
+          <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720748484/ambica-machine-tools/triplex-plunger-pump/ynrbzugrqllki9xwfrme.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
               }
               alt="product-image"
               height={423}
-              width={567}
+              width={367}
+              className="rounded-xl shadow-lg"
+            />
+          </div>
+
+          <div className="w-[20%]">
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+              }
+              alt="product-image"
+              height={423}
+              width={367}
+              className="rounded-xl shadow-lg"
+            />
+          </div>
+
+          <div className="w-[20%]">
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+              }
+              alt="product-image"
+              height={423}
+              width={367}
               className="rounded-xl shadow-lg"
             />
           </div>

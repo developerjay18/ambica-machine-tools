@@ -88,8 +88,8 @@ function Footer() {
           <div className="flex gap-x-2">
             <div className="capitalize text-white min-w-[23%]">phone no:</div>
             <div className="">
-              <div className="">+91 80000 789789 </div>
-              <div className="">+91 89980 790096 </div>
+              <div className=""> +91 9328289287</div>
+              <div className=""> +91 9604253837 </div>
             </div>
           </div>
 

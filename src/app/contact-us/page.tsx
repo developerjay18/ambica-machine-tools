@@ -12,7 +12,7 @@ function ContactUsPage() {
     <main>
       {/* banner  */}
       <div className="banner h-[40vh] bg-black text-white flex justify-center items-center text-5xl">
-       CONTACT US
+        CONTACT US
       </div>
 
       {/* contact form  */}
@@ -29,7 +29,6 @@ function ContactUsPage() {
               height={360}
               width={491}
             />
-           
           </div>
 
           <div className="right w-[50%]">
@@ -149,7 +148,7 @@ function ContactUsPage() {
               <div className="">
                 <h3 className="text-lg font-semibold">PHONE NO.</h3>
                 <div className="">
-                  +91 9328289287 <br /> +91 96012 53837
+                  +91 9328289287 <br /> +91 9604253837
                 </div>
               </div>
             </div>

@@ -302,7 +302,7 @@ export default function Home() {
                     <IoIosCall />
                   </div>
                   <div className=" text-[#4a4b54]">
-                    +91 9328289287 <br /> +91 9601253837
+                    +91 9328289287 <br /> +91 9604253837
                   </div>
                 </div>
 
@@ -312,8 +312,7 @@ export default function Home() {
                   </div>
                   <div className=" text-[#4a4b54]">
                     info@ambicamachinetools.com <br />{" "}
-                    sales@ambicamachinetools.com <br />
-                    ambicamachinetools@yahoo.com
+                    sales@ambicamachinetools.com 
                   </div>
                 </div>
               </div>
