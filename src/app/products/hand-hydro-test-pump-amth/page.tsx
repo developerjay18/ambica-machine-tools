@@ -14,7 +14,7 @@ function HandHydroTestPumpAMTHPage() {
     <main>
       {/* banner  */}
       <div className="banner h-[40vh] bg-[#2e2e2e] text-white flex text-5xl px-16 items-center">
-        <div className="left w-[70%] uppercase font-semibold flex flex-col gap-y-3">
+        <div className="left w-[50%] uppercase font-semibold flex flex-col gap-y-3">
           <h1>product</h1>
           <div className="flex items-center gap-x-2">
             <div className="w-20 h-1 bg-white"></div>
@@ -24,12 +24,23 @@ function HandHydroTestPumpAMTHPage() {
             </div>
             <div className="w-20 h-1 bg-white"></div>
           </div>
-          <h1>HAND HYDRO TEST PUMP (AMTH)</h1>
+          <h1 className="leading-[3.5rem]">
+            HAND HYDRO TEST PUMP <br /> (AMTH)
+          </h1>
         </div>
-        <div className="right w-[30%] mx-auto">
+        <div className="right w-[50%] flex mx-auto">
           <Image
             src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772445/ambica-machine-tools/hand-hydro-test-pump-amth/yd5vdoklx0evlsszhird.png"
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721271649/ambica-machine-tools/hand-hydro-test-pump-amth/g08ls9mhpxsa1lyjdsgm.png"
+            }
+            alt="product-banner-image"
+            height={231}
+            width={326}
+            className="mx-auto"
+          />
+          <Image
+            src={
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721271649/ambica-machine-tools/hand-hydro-test-pump-amth/cuvsqiozj1wkgajdg8wv.png"
             }
             alt="product-banner-image"
             height={231}
@@ -40,30 +51,58 @@ function HandHydroTestPumpAMTHPage() {
       </div>
 
       {/* product images  */}
-      <div className="product-images px-16 py-10 flex flex-col gap-y-10">
-        <Heading text1={"hand hydro"} text2={"test pump"} width={"w-[15%]"} />
+      <div className="product-images px-16 py-8 flex flex-col gap-y-10">
+        <Heading
+          text1={"hand hydro test pump"}
+          text2={"(AMTH)"}
+          width={"w-[25%]"}
+        />
 
-        <div className="flex justify-around">
-          <div className="w-[40%]">
+        <div className="flex justify-between">
+          <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721271649/ambica-machine-tools/hand-hydro-test-pump-amth/g08ls9mhpxsa1lyjdsgm.png"
               }
               alt="product-image"
               height={423}
-              width={567}
+              width={367}
               className="rounded-xl shadow-lg"
             />
           </div>
 
-          <div className="w-[40%]">
+          <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721271649/ambica-machine-tools/hand-hydro-test-pump-amth/cuvsqiozj1wkgajdg8wv.png"
               }
               alt="product-image"
               height={423}
-              width={567}
+              width={367}
+              className="rounded-xl shadow-lg"
+            />
+          </div>
+
+          <div className="w-[20%]">
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721271728/ambica-machine-tools/hand-hydro-test-pump-amth/bh4y1sx9xd0xy3rvidmx.png"
+              }
+              alt="product-image"
+              height={423}
+              width={367}
+              className="rounded-xl shadow-lg"
+            />
+          </div>
+
+          <div className="w-[20%]">
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721271649/ambica-machine-tools/hand-hydro-test-pump-amth/zupgcyr4ju4t14svnbmt.png"
+              }
+              alt="product-image"
+              height={423}
+              width={367}
               className="rounded-xl shadow-lg"
             />
           </div>
@@ -71,7 +110,7 @@ function HandHydroTestPumpAMTHPage() {
       </div>
 
       {/* material of construction  */}
-      <div className="material-of-const px-16 py-10 flex flex-col gap-y-10">
+      <div className="material-of-const px-16 py-8 bg-[#f4f4f4] flex flex-col gap-y-10">
         <Heading
           text1={"standard accessories"}
           text2={"with M.O.C"}
@@ -91,7 +130,7 @@ function HandHydroTestPumpAMTHPage() {
       </div>
 
       {/* other infos  */}
-      <div className="other-infos px-16 py-10 flex justify-between gap-x-20">
+      <div className="other-infos px-16 py-8 flex justify-between gap-x-20">
         <div className="left w-1/2 bg-[#f4f4f4] rounded-lg p-6 flex flex-col gap-y-6">
           <Heading text1={"special"} text2={"features"} width={"w-[20%]"} />
 
@@ -114,7 +153,7 @@ function HandHydroTestPumpAMTHPage() {
       </div>
 
       {/* tables  */}
-      <div className="table-one px-16 py-10 flex flex-col gap-y-10">
+      <div className="table-one px-16 py-8 flex flex-col gap-y-10">
         <div className="">
           <table>
             <tr>

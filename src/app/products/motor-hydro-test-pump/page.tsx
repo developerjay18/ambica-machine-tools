@@ -14,7 +14,7 @@ function MotorHydroTestPumpPage() {
     <main>
       {/* banner  */}
       <div className="banner h-[40vh] bg-[#2e2e2e] text-white flex text-5xl px-16 items-center">
-        <div className="left w-[70%] uppercase font-semibold flex flex-col gap-y-3">
+        <div className="left w-[50%] uppercase font-semibold flex flex-col gap-y-3">
           <h1>product</h1>
           <div className="flex items-center gap-x-2">
             <div className="w-20 h-1 bg-white"></div>
@@ -26,10 +26,19 @@ function MotorHydroTestPumpPage() {
           </div>
           <h1>MOTOR HYDRO TEST PUMP</h1>
         </div>
-        <div className="right w-[30%] mx-auto">
+        <div className="right flex w-[50%] mx-auto">
           <Image
             src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772445/ambica-machine-tools/hand-hydro-test-pump-amth/yd5vdoklx0evlsszhird.png"
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721275439/ambica-machine-tools/motor-hydro-test-pump/jdllquu9senilhzla4l1.png"
+            }
+            alt="product-banner-image"
+            height={231}
+            width={326}
+            className="mx-auto"
+          />
+          <Image
+            src={
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721275439/ambica-machine-tools/motor-hydro-test-pump/iusxhc4hfjhfhp6jabj0.png"
             }
             alt="product-banner-image"
             height={231}
@@ -47,7 +56,7 @@ function MotorHydroTestPumpPage() {
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721275439/ambica-machine-tools/motor-hydro-test-pump/tbiniotzpxvyqxpehgmk.png"
               }
               alt="product-image"
               height={423}
@@ -59,7 +68,7 @@ function MotorHydroTestPumpPage() {
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721275439/ambica-machine-tools/motor-hydro-test-pump/iiohlgvjcurp4q8nxcuo.png"
               }
               alt="product-image"
               height={423}
@@ -71,7 +80,7 @@ function MotorHydroTestPumpPage() {
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721275439/ambica-machine-tools/motor-hydro-test-pump/ch96rjdi0ygujdnwtxec.png"
               }
               alt="product-image"
               height={423}
@@ -83,7 +92,7 @@ function MotorHydroTestPumpPage() {
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721275439/ambica-machine-tools/motor-hydro-test-pump/iusxhc4hfjhfhp6jabj0.png"
               }
               alt="product-image"
               height={423}
@@ -95,7 +104,7 @@ function MotorHydroTestPumpPage() {
       </div>
 
       {/* material of construction  */}
-      <div className="material-of-const px-16 py-10 flex flex-col gap-y-10 bg-[#f4f4f4]">
+      <div className="material-of-const px-16 py-8 flex flex-col gap-y-10 bg-[#f4f4f4]">
         <Heading
           text1={"standard accessories"}
           text2={"with M.O.C"}
@@ -115,7 +124,7 @@ function MotorHydroTestPumpPage() {
       </div>
 
       {/* other infos  */}
-      <div className="other-infos px-16 pt-10 pb-5 flex justify-between gap-x-10">
+      <div className="other-infos px-16 pt-8 pb-5 flex justify-between gap-x-10">
         <div className="right w-1/2 bg-[#f4f4f4] rounded-lg p-6 flex flex-col gap-y-6">
           <Heading text1={"optical"} text2={"accessories"} width={"w-[20%]"} />
 
@@ -191,12 +200,8 @@ function MotorHydroTestPumpPage() {
                   >
                     amtmh - 70
                   </th>
-                  <td className="px-6 py-2 text-center">
-                    70
-                  </td>
-                  <td className="px-6 py-2 text-center">
-                    120
-                  </td>
+                  <td className="px-6 py-2 text-center">70</td>
+                  <td className="px-6 py-2 text-center">120</td>
                   <td className="px-6 py-2 text-center">1/1440/0.75</td>
                 </tr>
 
@@ -207,12 +212,8 @@ function MotorHydroTestPumpPage() {
                   >
                     amtmh - 211
                   </th>
-                  <td className="px-6 py-2 text-center">
-                    140
-                  </td>
-                  <td className="px-6 py-2 text-center">
-                    120
-                  </td>
+                  <td className="px-6 py-2 text-center">140</td>
+                  <td className="px-6 py-2 text-center">120</td>
                   <td className="px-6 py-2 text-center">2/1440/1.5</td>
                 </tr>
 
@@ -223,12 +224,8 @@ function MotorHydroTestPumpPage() {
                   >
                     amtmh - 140
                   </th>
-                  <td className="px-6 py-2 text-center">
-                    211
-                  </td>
-                  <td className="px-6 py-2 text-center">
-                    120
-                  </td>
+                  <td className="px-6 py-2 text-center">211</td>
+                  <td className="px-6 py-2 text-center">120</td>
                   <td className="px-6 py-2 text-center">3/1440/2.2</td>
                 </tr>
 
@@ -239,12 +236,8 @@ function MotorHydroTestPumpPage() {
                   >
                     amtmh - 350
                   </th>
-                  <td className="px-6 py-2 text-center">
-                    350
-                  </td>
-                  <td className="px-6 py-2 text-center">
-                    120
-                  </td>
+                  <td className="px-6 py-2 text-center">350</td>
+                  <td className="px-6 py-2 text-center">120</td>
                   <td className="px-6 py-2 text-center">5/1440/3.5</td>
                 </tr>
 
@@ -255,12 +248,8 @@ function MotorHydroTestPumpPage() {
                   >
                     amtmh - 500
                   </th>
-                  <td className="px-6 py-2 text-center">
-                    500
-                  </td>
-                  <td className="px-6 py-2 text-center">
-                    120
-                  </td>
+                  <td className="px-6 py-2 text-center">500</td>
+                  <td className="px-6 py-2 text-center">120</td>
                   <td className="px-6 py-2 text-center">5/1440/3.5</td>
                 </tr>
 
@@ -271,12 +260,8 @@ function MotorHydroTestPumpPage() {
                   >
                     amtmh - 700
                   </th>
-                  <td className="px-6 py-2 text-center">
-                    705
-                  </td>
-                  <td className="px-6 py-2 text-center">
-                    120
-                  </td>
+                  <td className="px-6 py-2 text-center">705</td>
+                  <td className="px-6 py-2 text-center">120</td>
                   <td className="px-6 py-2 text-center">5/1440/3.5</td>
                 </tr>
 
@@ -287,12 +272,8 @@ function MotorHydroTestPumpPage() {
                   >
                     amtmh - 1000
                   </th>
-                  <td className="px-6 py-2 text-center">
-                    1000
-                  </td>
-                  <td className="px-6 py-2 text-center">
-                    90
-                  </td>
+                  <td className="px-6 py-2 text-center">1000</td>
+                  <td className="px-6 py-2 text-center">90</td>
                   <td className="px-6 py-2 text-center">7.5/1440/5.5</td>
                 </tr>
 
@@ -303,12 +284,8 @@ function MotorHydroTestPumpPage() {
                   >
                     amtmh - 1200
                   </th>
-                  <td className="px-6 py-2 text-center">
-                    1250
-                  </td>
-                  <td className="px-6 py-2 text-center">
-                    90
-                  </td>
+                  <td className="px-6 py-2 text-center">1250</td>
+                  <td className="px-6 py-2 text-center">90</td>
                   <td className="px-6 py-2 text-center">7.5/1440/5.5</td>
                 </tr>
               </tbody>

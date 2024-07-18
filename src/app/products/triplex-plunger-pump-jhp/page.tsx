@@ -14,7 +14,7 @@ function TriplexPlungerPumpJHPPage() {
     <main>
       {/* banner  */}
       <div className="banner h-[40vh] bg-[#2e2e2e] text-white flex text-5xl px-16 items-center">
-        <div className="left w-[70%] uppercase font-semibold flex flex-col gap-y-3">
+        <div className="left w-[50%] uppercase font-semibold flex flex-col gap-y-3">
           <h1>product</h1>
           <div className="flex items-center gap-x-2">
             <div className="w-20 h-1 bg-white"></div>
@@ -24,30 +24,45 @@ function TriplexPlungerPumpJHPPage() {
             </div>
             <div className="w-20 h-1 bg-white"></div>
           </div>
-          <h1>triplex plunger pump (series JHP)</h1>
+          <h1 className="leading-[3.5rem]">
+            triplex plunger pump <br /> (series JHP)
+          </h1>
         </div>
-        <div className="right w-[30%] mx-auto">
+        <div className="right flex items-center w-[50%] mx-auto">
           <Image
             src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772445/ambica-machine-tools/hand-hydro-test-pump-amth/yd5vdoklx0evlsszhird.png"
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721276966/ambica-machine-tools/triplex-plunger-pump-jhp/g0mvwhgiaoffx1xqvk6z.png"
             }
             alt="product-banner-image"
             height={231}
             width={326}
             className="mx-auto"
           />
+          <Image
+            src={
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721276966/ambica-machine-tools/triplex-plunger-pump-jhp/dja1c8ba3n2mg12cykot.png"
+            }
+            alt="product-banner-image"
+            height={231}
+            width={326}
+            className="mx-auto max-h-[280px]"
+          />
         </div>
       </div>
 
       {/* product images  */}
-      <div className="product-images px-16 py-10 flex flex-col gap-y-10">
-        <Heading text1={"motor hydro"} text2={"test pump"} width={"w-[16%]"} />
+      <div className="product-images px-16 py-8 flex flex-col gap-y-10">
+        <Heading
+          text1={"triplex plunger pump"}
+          text2={"(series JHP)"}
+          width={"w-[25%]"}
+        />
 
         <div className="flex justify-between">
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721276967/ambica-machine-tools/triplex-plunger-pump-jhp/o3fpkbvloyk5uhvla6dp.png"
               }
               alt="product-image"
               height={423}
@@ -59,7 +74,7 @@ function TriplexPlungerPumpJHPPage() {
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721276967/ambica-machine-tools/triplex-plunger-pump-jhp/xhqudtrv2buxsrzyftgy.png"
               }
               alt="product-image"
               height={423}
@@ -71,7 +86,7 @@ function TriplexPlungerPumpJHPPage() {
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721276967/ambica-machine-tools/triplex-plunger-pump-jhp/pxcc9ahpzm1naqwlsjwj.png"
               }
               alt="product-image"
               height={423}
@@ -83,7 +98,7 @@ function TriplexPlungerPumpJHPPage() {
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721276967/ambica-machine-tools/triplex-plunger-pump-jhp/lxlgtbxeoiyhyaah8p1s.png"
               }
               alt="product-image"
               height={423}
@@ -95,7 +110,7 @@ function TriplexPlungerPumpJHPPage() {
       </div>
 
       {/* data section  */}
-      <div className="data px-16 py-10">
+      <div className="data px-16 py-4">
         <div className="box bg-[#ececec] flex flex-col gap-y-4 p-6 border-l-[6px] border-r-[6px] border-themeCarrot">
           <h2 className="text-3xl font-bold">
             Hydro Testing/Jetting Pump (Motor / Engine Operated)
@@ -113,7 +128,7 @@ function TriplexPlungerPumpJHPPage() {
       </div>
 
       {/* other infos  */}
-      <div className="other-infos px-16 pt-10 pb-5 flex justify-between gap-x-10">
+      <div className="other-infos px-16 pt-8 pb-5 flex justify-between gap-x-10">
         <div className="right w-1/2 bg-[#f4f4f4] rounded-lg p-6 flex flex-col gap-y-6">
           <Heading text1={"standard"} text2={"accessories"} width={"w-[25%]"} />
 
@@ -166,19 +181,35 @@ function TriplexPlungerPumpJHPPage() {
           <table>
             <tr>
               <th className="">Model No.</th>
-              <th colSpan={4} className="text-center">Flow Rate</th>
-              <th colSpan={2} className="text-center">Max. Pressure</th>
-              <th colSpan={2} className="text-center">RPM</th>
-              <th colSpan={4} className="text-center">Max Power</th>
+              <th colSpan={4} className="text-center">
+                Flow Rate
+              </th>
+              <th colSpan={2} className="text-center">
+                Max. Pressure
+              </th>
+              <th colSpan={2} className="text-center">
+                RPM
+              </th>
+              <th colSpan={4} className="text-center">
+                Max Power
+              </th>
             </tr>
             <tr>
               <th></th>
-              <th colSpan={2} className="text-center">1/min</th>
-              <th colSpan={2} className="text-center">US GPM</th>
+              <th colSpan={2} className="text-center">
+                1/min
+              </th>
+              <th colSpan={2} className="text-center">
+                US GPM
+              </th>
               <th colSpan={2} className="text-center"></th>
               <th colSpan={2} className="text-center"></th>
-              <th colSpan={2} className="text-center">HP</th>
-              <th colSpan={2} className="text-center">KW</th>
+              <th colSpan={2} className="text-center">
+                HP
+              </th>
+              <th colSpan={2} className="text-center">
+                KW
+              </th>
             </tr>
             <tr>
               <th></th>

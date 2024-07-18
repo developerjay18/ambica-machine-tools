@@ -31,7 +31,7 @@ function TriplexPlungerPumpAMTLPPage() {
         <div className="right w-[50%] mx-auto flex">
           <Image
             src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720748015/ambica-machine-tools/triplex-plunger-pump/eur7wibamqv5mavlmd9j.svg"
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721224796/ambica-machine-tools/triplex-plunger-pump/e5hodjxfzlhswos8kco1.png"
             }
             alt="product-banner-image"
             height={231}
@@ -52,13 +52,17 @@ function TriplexPlungerPumpAMTLPPage() {
 
       {/* product images  */}
       <div className="product-images px-16 py-8 flex flex-col gap-y-10">
-        <Heading text1={"motor hydro"} text2={"test pump"} width={"w-[16%]"} />
+        <Heading
+          text1={"triplex plunger pump"}
+          text2={"(series AMTLP)"}
+          width={"w-[25%]"}
+        />
 
         <div className="flex justify-between">
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721224943/ambica-machine-tools/triplex-plunger-pump/kgb4qbkatc5coq6jkxic.png"
               }
               alt="product-image"
               height={423}
@@ -70,7 +74,7 @@ function TriplexPlungerPumpAMTLPPage() {
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721224796/ambica-machine-tools/triplex-plunger-pump/e5hodjxfzlhswos8kco1.png"
               }
               alt="product-image"
               height={423}
@@ -82,7 +86,7 @@ function TriplexPlungerPumpAMTLPPage() {
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721224781/ambica-machine-tools/triplex-plunger-pump/ld1bqq4dotzazep7yfbp.png"
               }
               alt="product-image"
               height={423}
@@ -94,7 +98,7 @@ function TriplexPlungerPumpAMTLPPage() {
           <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720772444/ambica-machine-tools/hand-hydro-test-pump-amth/ihueuek0wbvfxknbswak.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721224765/ambica-machine-tools/triplex-plunger-pump/da2m7gvred4dl6ahtb6s.png"
               }
               alt="product-image"
               height={423}
@@ -106,7 +110,7 @@ function TriplexPlungerPumpAMTLPPage() {
       </div>
 
       {/* material of construction  */}
-      <div className="material-of-const px-16 py-10 flex flex-col gap-y-10">
+      <div className="material-of-const px-16 py-8 bg-[#f4f4f4] flex flex-col gap-y-10">
         <Heading
           text1={"material"}
           text2={"of construction"}
@@ -127,7 +131,7 @@ function TriplexPlungerPumpAMTLPPage() {
       </div>
 
       {/* other infos  */}
-      <div className="other-infos px-16 py-10 flex justify-between gap-x-20">
+      <div className="other-infos px-16 py-8 flex justify-between gap-x-20">
         <div className="left w-1/2 bg-[#f4f4f4] rounded-lg p-6 flex flex-col gap-y-6">
           <Heading text1={"technical"} text2={"details"} width={"w-[28%]"} />
 
@@ -154,7 +158,7 @@ function TriplexPlungerPumpAMTLPPage() {
       </div>
 
       {/* tables  */}
-      <div className="table-one px-16 py-10 flex flex-col gap-y-10">
+      <div className="table-one px-16 py-8 flex flex-col gap-y-10">
         <TableHeading
           text1={"AMTLP SERIES PRODUCT RANGE FOR"}
           text2={"HYDRO TEST APPLICATION"}
@@ -505,7 +509,7 @@ function TriplexPlungerPumpAMTLPPage() {
       </div>
 
       {/* tables  */}
-      <div className="table-one px-16 py-10 flex flex-col gap-y-10">
+      <div className="table-one px-16 py-8 flex flex-col gap-y-10">
         <TableHeading
           text1={"AMTLP SERIES PRODUCT RANGE FOR"}
           text2={"HYDRO BLASTING AND HYDRO TEST"}

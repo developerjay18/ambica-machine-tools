@@ -14,7 +14,7 @@ function TriplexPlungerPumpAMTMPPage() {
     <main>
       {/* banner  */}
       <div className="banner h-[40vh] bg-[#2e2e2e] text-white flex text-5xl px-16 items-center">
-        <div className="left w-[70%] uppercase font-semibold flex flex-col gap-y-3">
+        <div className="left w-[50%] uppercase font-semibold flex flex-col gap-y-3">
           <h1>product</h1>
           <div className="flex items-center gap-x-2">
             <div className="w-20 h-1 bg-white"></div>
@@ -24,9 +24,20 @@ function TriplexPlungerPumpAMTMPPage() {
             </div>
             <div className="w-20 h-1 bg-white"></div>
           </div>
-          <h1>TRIPLEX PLUNGER PUMP (SERIES AMTMP)</h1>
+          <h1 className="leading-[3.5rem]">
+            TRIPLEX PLUNGER PUMP <br /> (SERIES AMTMP)
+          </h1>
         </div>
-        <div className="right w-[30%] mx-auto">
+        <div className="right w-[50%] flex mx-auto">
+          <Image
+            src={
+              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720755522/ambica-machine-tools/triplex-plunger-pump-amtmp/ofal4bhk8tg3onqg1glk.png"
+            }
+            alt="product-banner-image"
+            height={231}
+            width={326}
+            className="mx-auto"
+          />
           <Image
             src={
               "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720755522/ambica-machine-tools/triplex-plunger-pump-amtmp/ofal4bhk8tg3onqg1glk.png"
@@ -40,30 +51,58 @@ function TriplexPlungerPumpAMTMPPage() {
       </div>
 
       {/* product images  */}
-      <div className="product-images px-16 py-10 flex flex-col gap-y-10">
-        <Heading text1={"triplex"} text2={"plunger pump"} width={"w-[8%]"} />
+      <div className="product-images px-16 py-8 flex flex-col gap-y-10">
+        <Heading
+          text1={"triplex plunger pump"}
+          text2={"(series AMTMP)"}
+          width={"w-[25%]"}
+        />
 
-        <div className="flex justify-around">
-          <div className="w-[40%]">
+        <div className="flex justify-between">
+          <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720755408/ambica-machine-tools/triplex-plunger-pump-amtmp/wtq8yyy2midkdxvfasfp.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721224943/ambica-machine-tools/triplex-plunger-pump/kgb4qbkatc5coq6jkxic.png"
               }
               alt="product-image"
               height={423}
-              width={567}
+              width={367}
               className="rounded-xl shadow-lg"
             />
           </div>
 
-          <div className="w-[40%]">
+          <div className="w-[20%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720755408/ambica-machine-tools/triplex-plunger-pump-amtmp/wtq8yyy2midkdxvfasfp.png"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721224796/ambica-machine-tools/triplex-plunger-pump/e5hodjxfzlhswos8kco1.png"
               }
               alt="product-image"
               height={423}
-              width={567}
+              width={367}
+              className="rounded-xl shadow-lg"
+            />
+          </div>
+
+          <div className="w-[20%]">
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721224781/ambica-machine-tools/triplex-plunger-pump/ld1bqq4dotzazep7yfbp.png"
+              }
+              alt="product-image"
+              height={423}
+              width={367}
+              className="rounded-xl shadow-lg"
+            />
+          </div>
+
+          <div className="w-[20%]">
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721224765/ambica-machine-tools/triplex-plunger-pump/da2m7gvred4dl6ahtb6s.png"
+              }
+              alt="product-image"
+              height={423}
+              width={367}
               className="rounded-xl shadow-lg"
             />
           </div>
@@ -71,7 +110,7 @@ function TriplexPlungerPumpAMTMPPage() {
       </div>
 
       {/* material of construction  */}
-      <div className="material-of-const px-16 py-10 flex flex-col gap-y-10">
+      <div className="material-of-const bg-[#f4f4f4] px-16 py-8 flex flex-col gap-y-10">
         <Heading
           text1={"material"}
           text2={"of construction"}
@@ -92,7 +131,7 @@ function TriplexPlungerPumpAMTMPPage() {
       </div>
 
       {/* other infos  */}
-      <div className="other-infos px-16 py-10 flex justify-between gap-x-20">
+      <div className="other-infos px-16 py-8 flex justify-between gap-x-20">
         <div className="left w-1/2 bg-[#f4f4f4] rounded-lg p-6 flex flex-col gap-y-6">
           <Heading text1={"technical"} text2={"details"} width={"w-[28%]"} />
 
@@ -119,7 +158,7 @@ function TriplexPlungerPumpAMTMPPage() {
       </div>
 
       {/* tables  */}
-      <div className="table-one px-16 py-10 flex flex-col gap-y-10">
+      <div className="table-one px-16 py-8 flex flex-col gap-y-10">
         <TableHeading
           text1={"AMTMP SERIES 10000"}
           text2={"PSI (750 BAR PUMP)"}

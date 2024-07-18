@@ -231,21 +231,21 @@ export default function Home() {
           <Slider {...settings}>
             {productsRange.map((item, index) => (
               <div
-                className="slider-product carousel-slide border-[10px] border-white w-[19%] cursor-pointer"
+                className="slider-product carousel-slide border-[10px] border-white w-[19%] cursor-pointer rounded-lg"
                 key={`product-range-no-${index + 1}`}
               >
-                <div className="border-[3px] border-themeCarrot">
+                <div className="border-[3px] rounded-lg border-themeCarrot">
                   <Image
                     src={item.imgUrl}
                     alt="prodict-img-slider"
                     height={230}
                     width={230}
-                    className="mx-auto min-h-[35vh]"
+                    className="mx-auto min-h-[35vh] rounded-lg"
                   />
                 </div>
 
                 <div className="">
-                  <h3 className="uppercase px-4 min-h-[10vh] flex items-center justify-center font-bold text-center py-2 bg-[#f4f4f4]">
+                  <h3 className="uppercase px-4 min-h-[10vh] flex items-center justify-center font-bold text-center py-2 bg-[#f4f4f4] rounded-lg">
                     {item.title}
                   </h3>
                 </div>
