@@ -50,65 +50,6 @@ function TriplexPlungerPumpAMTHPPage() {
         </div>
       </div>
 
-      {/* product images  */}
-      <div className="product-images px-16 py-8 flex flex-col gap-y-10">
-        <Heading
-          text1={"triplex plunger pump"}
-          text2={"(series AMTHP)"}
-          width={"w-[25%]"}
-        />
-
-        <div className="flex justify-between">
-          <div className="w-[20%]">
-            <Image
-              src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721270823/ambica-machine-tools/triplex-plunger-pump-amthp/bfwz2u4nytz9g3l9qcnb.png"
-              }
-              alt="product-image"
-              height={423}
-              width={367}
-              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
-            />
-          </div>
-
-          <div className="w-[20%]">
-            <Image
-              src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721270823/ambica-machine-tools/triplex-plunger-pump-amthp/bupsg48zjgtkl2g5kzq6.png"
-              }
-              alt="product-image"
-              height={423}
-              width={367}
-              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
-            />
-          </div>
-
-          <div className="w-[20%]">
-            <Image
-              src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721270823/ambica-machine-tools/triplex-plunger-pump-amthp/bfwz2u4nytz9g3l9qcnb.png"
-              }
-              alt="product-image"
-              height={423}
-              width={367}
-              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
-            />
-          </div>
-
-          <div className="w-[20%]">
-            <Image
-              src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721270823/ambica-machine-tools/triplex-plunger-pump-amthp/bupsg48zjgtkl2g5kzq6.png"
-              }
-              alt="product-image"
-              height={423}
-              width={367}
-              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
-            />
-          </div>
-        </div>
-      </div>
-
       {/* material of construction  */}
       <div className="material-of-const px-16 bg-[#f4f4f4] py-8 flex flex-col gap-y-10">
         <Heading
@@ -131,8 +72,8 @@ function TriplexPlungerPumpAMTHPPage() {
       </div>
 
       {/* other infos  */}
-      <div className="other-infos px-16 py-8 flex justify-between gap-x-20">
-        <div className="left w-1/2 bg-[#f4f4f4] rounded-lg p-6 flex flex-col gap-y-6">
+      <div className="other-infos px-16 py-8 flex justify-around">
+        <div className="left w-[75%] bg-[#f4f4f4] rounded-lg p-6 flex flex-col gap-y-6">
           <Heading text1={"technical"} text2={"details"} width={"w-[28%]"} />
 
           <ul className="details text-lg ml-4">
@@ -142,19 +83,46 @@ function TriplexPlungerPumpAMTHPPage() {
           </ul>
         </div>
 
-        <div className="right w-1/2 bg-[#f4f4f4] rounded-lg p-6 flex flex-col gap-y-6">
-          <Heading
-            text1={"special notes"}
-            text2={"& application"}
-            width={"w-[37%]"}
-          />
+        <div className="right w-[20%] flex flex-col gap-y-8 justify-between">
+          <div className="w-[100%]">
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721270823/ambica-machine-tools/triplex-plunger-pump-amthp/bfwz2u4nytz9g3l9qcnb.png"
+              }
+              alt="product-image"
+              height={423}
+              width={367}
+              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
+            />
+          </div>
 
-          <ul className="details text-lg ml-4 flex flex-col gap-y-2">
-            {notes.map((item, index) => (
-              <li key={`tech-detail-${index + 1}`}>{item}</li>
-            ))}
-          </ul>
+          <div className="w-[100%]">
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721270823/ambica-machine-tools/triplex-plunger-pump-amthp/bupsg48zjgtkl2g5kzq6.png"
+              }
+              alt="product-image"
+              height={423}
+              width={367}
+              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
+            />
+          </div>
         </div>
+      </div>
+
+      {/* other small infos  */}
+      <div className="right mx-16 bg-[#f4f4f4] rounded-lg p-6 flex flex-col gap-y-6">
+        <Heading
+          text1={"special notes"}
+          text2={"& application"}
+          width={"w-[37%]"}
+        />
+
+        <ul className="details text-lg ml-4 flex flex-col gap-y-2">
+          {notes.map((item, index) => (
+            <li key={`tech-detail-${index + 1}`}>{item}</li>
+          ))}
+        </ul>
       </div>
 
       {/* tables  */}
