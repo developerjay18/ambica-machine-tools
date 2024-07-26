@@ -67,7 +67,7 @@ function TriplexPlungerPumpJHPPage() {
               alt="product-image"
               height={423}
               width={367}
-              className="rounded-xl shadow-lg"
+              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
             />
           </div>
 
@@ -79,7 +79,7 @@ function TriplexPlungerPumpJHPPage() {
               alt="product-image"
               height={423}
               width={367}
-              className="rounded-xl shadow-lg"
+              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
             />
           </div>
 
@@ -91,7 +91,7 @@ function TriplexPlungerPumpJHPPage() {
               alt="product-image"
               height={423}
               width={367}
-              className="rounded-xl shadow-lg"
+              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
             />
           </div>
 
@@ -103,7 +103,7 @@ function TriplexPlungerPumpJHPPage() {
               alt="product-image"
               height={423}
               width={367}
-              className="rounded-xl shadow-lg"
+              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
             />
           </div>
         </div>
