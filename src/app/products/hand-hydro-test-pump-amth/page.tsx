@@ -67,7 +67,7 @@ function HandHydroTestPumpAMTHPage() {
               alt="product-image"
               height={423}
               width={367}
-              className="rounded-xl shadow-lg"
+              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
             />
           </div>
 
@@ -79,7 +79,7 @@ function HandHydroTestPumpAMTHPage() {
               alt="product-image"
               height={423}
               width={367}
-              className="rounded-xl shadow-lg"
+              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
             />
           </div>
 
@@ -91,7 +91,7 @@ function HandHydroTestPumpAMTHPage() {
               alt="product-image"
               height={423}
               width={367}
-              className="rounded-xl shadow-lg"
+              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
             />
           </div>
 
@@ -103,7 +103,7 @@ function HandHydroTestPumpAMTHPage() {
               alt="product-image"
               height={423}
               width={367}
-              className="rounded-xl shadow-lg"
+              className="rounded-xl shadow-lg glow bg-[#f4f4f4]"
             />
           </div>
         </div>
@@ -156,7 +156,7 @@ function HandHydroTestPumpAMTHPage() {
       <div className="table-one px-16 py-8 flex flex-col gap-y-10">
         <div className="">
           <table>
-            <tr>
+            <tr className="">
               <th colSpan={2} rowSpan={2}>
                 Pump Model No
               </th>

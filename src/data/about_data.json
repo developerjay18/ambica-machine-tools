@@ -2,19 +2,15 @@
   "stats": [
     {
       "title": "ambica products",
-      "number": "80"
+      "number": "300"
     },
     {
       "title": "ambica customers",
-      "number": "100"
-    },
-    {
-      "title": "ambica staff",
-      "number": "124"
+      "number": "10000"
     },
     {
       "title": "years of experience",
-      "number": "12"
+      "number": "18"
     }
   ]
 }

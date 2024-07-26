@@ -1,109 +1,157 @@
 {
   "products": [
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720595529/ambica-machine-tools/home/y4gldm4xre2jky6xkypw.svg",
-      "itemName": "AODD PUMP",
-      "modelName": "M.O.C - PP, PVDF, SS-316,  ALU"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721911287/ambica-machine-tools/home/qmtoucpwziwojpduzxai.svg",
+      "itemName": "JHP - SERIES",
+      "modelName": "TRIPLEX PLUNGER HYDRO ",
+      "modelNameTwo": "JET PUMP (ENGINE DRIVEN)"
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720595483/ambica-machine-tools/home/i8bfvw4bllf8gdqeviak.svg",
-      "itemName": "BARREL PUMP",
-      "modelName": "M.O.C - PP, PVDF, SS-316,  ALU"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721911288/ambica-machine-tools/home/qisah64nqtmbruwau6pj.svg",
+      "itemName": "JHP - SERIES",
+      "modelName": "TRIPLEX PLUNGER HYDRO ",
+      "modelNameTwo": "JET PUMP"
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720595479/ambica-machine-tools/home/lw1zocbvukn2zdqaimhs.svg",
-      "itemName": "TRIPLEX PLUNGER PUMP",
-      "modelName": "SERIES - AMTLP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721911288/ambica-machine-tools/home/iqs9j04bmbrx0h1uc5hf.svg",
+      "itemName": "AMTMH - SERIES",
+      "modelName": "HYDRO TEST PUMP",
+      "modelNameTwo": "(ELECTRIC MOTOR DRIVEN UNIT)"
+    },
+    {
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721911289/ambica-machine-tools/home/tfnuwucbos926nertmbp.svg",
+      "itemName": "AMTLP - SERIES",
+      "modelName": "TRIPLEX PLUNGER  HYDRO ",
+      "modelNameTwo": "JET PUMP"
+    },
+    {
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721911291/ambica-machine-tools/home/rivyq8ncgimu6hd5j6m1.svg",
+      "itemName": "AMTMP - SERIES",
+      "modelName": "TRIPLEX PLUNGER HYDRO ",
+      "modelNameTwo": "JET PUMP"
+    },
+    {
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721911297/ambica-machine-tools/home/yaj8ed0zj1pbxql1vynn.svg",
+      "itemName": "AMTH - SERIES",
+      "modelName": "HYDRO TEST PUMP",
+      "modelNameTwo": "(HAND DRIVEN UNIT)"
     }
   ],
   "productsRange": [
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192953/ambica-machine-tools/home/products-range/lqxmwnbmhrzytml0wxql.png",
-      "title": "high pressure valve"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919472/ambica-machine-tools/home/products-range/zlfxtvt8jm30jjm787tv.svg",
+      "title": "high pressure valve",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192953/ambica-machine-tools/home/products-range/elbotfxymz3y9vjku8nb.png",
-      "title": "sanory and hygienic pump"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919471/ambica-machine-tools/home/products-range/ovwf85zo3yex2zm5gqvo.svg",
+      "title": "sanory and hygienic pump",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192953/ambica-machine-tools/home/products-range/wofpbbidps0keskgan3p.png",
-      "title": "rubber lined pump"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919469/ambica-machine-tools/home/products-range/bhjipgqkjhohmielxzg4.svg",
+      "title": "rubber lined pump",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192953/ambica-machine-tools/home/products-range/qu3vq5khluwporlfqmzh.png",
-      "title": "stainless steel monoblock process pump"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919469/ambica-machine-tools/home/products-range/ar5eapmxxfmjxyspzof6.svg",
+      "title": "stainless steel monoblock process pump",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192953/ambica-machine-tools/home/products-range/iqmcnngyzwyd52nsglan.png",
-      "title": "mud pump"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919469/ambica-machine-tools/home/products-range/psxf38pmelmakbnqueqy.svg",
+      "title": "mud pump",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192954/ambica-machine-tools/home/products-range/uraoziuoga3tpavqd8q9.png",
-      "title": "vertical polypropylene pump"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919472/ambica-machine-tools/home/products-range/nqyajjijmpji1lg59fwb.svg",
+      "title": "vertical polypropylene pump",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192954/ambica-machine-tools/home/products-range/mddo9j84araatw7202bn.png",
-      "title": "polypropylene pump monoblock"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919477/ambica-machine-tools/home/products-range/wxucqq7hf89ytbw7svop.svg",
+      "title": "polypropylene pump monoblock",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192954/ambica-machine-tools/home/products-range/rjfvym4iw4rjyh8xcaeo.png",
-      "title": "polypropylene pump"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919471/ambica-machine-tools/home/products-range/ci7cpmflgedlpaaukxeg.svg",
+      "title": "polypropylene pump",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192954/ambica-machine-tools/home/products-range/uaffh9vuwi3lb3nzfcqf.png",
-      "title": "MAGNETIC DRIVEN SS 316 MONOBLOCK PUMP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919473/ambica-machine-tools/home/products-range/owocpkcqiqdnrgtmbkh4.svg",
+      "title": "MAGNETIC DRIVEN SS 316 MONOBLOCK PUMP",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192954/ambica-machine-tools/home/products-range/mbpzeapp2jyimcphxn4c.png",
-      "title": "MAGNETIC DRIVEN POLYPROPYLENEPUMP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919485/ambica-machine-tools/home/products-range/frrik0cvkykze2aapqaw.svg",
+      "title": "MAGNETIC DRIVEN POLYPROPYLENEPUMP",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192954/ambica-machine-tools/home/products-range/swatfcgpyvgdmlammkj2.png",
-      "title": "TRIPLEX PLUNGER HYDRO TEST PUMP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919474/ambica-machine-tools/home/products-range/w1pqqn54fyncqszdvaee.svg",
+      "title": "TRIPLEX PLUNGER HYDRO TEST PUMP",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192954/ambica-machine-tools/home/products-range/ul1p1wgdsmijdcscvxyl.png",
-      "title": "HYDRO TEST PUMP (HAND DRIVEN)"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919470/ambica-machine-tools/home/products-range/tkn0yy3tx3fqrx3okny8.svg",
+      "title": "HYDRO TEST PUMP (HAND DRIVEN)",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192954/ambica-machine-tools/home/products-range/prhjbbagesccdevk8c6o.png",
-      "title": "HYDRO TEST PUMP (MOTOR DRIVEN)"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919477/ambica-machine-tools/home/products-range/fy39bjjkezjrlngbxzwq.svg",
+      "title": "HYDRO TEST PUMP (MOTOR DRIVEN)",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192954/ambica-machine-tools/home/products-range/qt8aej8935af9mpoi6ge.png",
-      "title": "HYDRO PNEUMATIC PUMP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919475/ambica-machine-tools/home/products-range/w7n8icuy6unrn9eioqtf.svg",
+      "title": "HYDRO PNEUMATIC PUMP",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192954/ambica-machine-tools/home/products-range/e2jkjfpedavatssascvf.png",
-      "title": "HIGH PRESSURE PLUNGER PUMP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919477/ambica-machine-tools/home/products-range/lrsz1a8yxkmst2mjwzdl.svg",
+      "title": "HIGH PRESSURE PLUNGER PUMP",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192955/ambica-machine-tools/home/products-range/ajfcyrozvsdjgeieivwi.png",
-      "title": "HYDRO JETTING PUMP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919478/ambica-machine-tools/home/products-range/bew1ad6nrmudi1irypth.svg",
+      "title": "HYDRO JETTING PUMP",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192955/ambica-machine-tools/home/products-range/vwuwdffht6t6trrokk62.png",
-      "title": "TRIPLEX PLUNGER PUMP (ENGINE DRIVEN)"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919473/ambica-machine-tools/home/products-range/bibuhgqcurjvebnq3pxp.svg",
+      "title": "TRIPLEX PLUNGER PUMP (ENGINE DRIVEN)",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192955/ambica-machine-tools/home/products-range/tv0m1h2mj0z9vr8ztpl7.png",
-      "title": "TRIPLEX PLUNGER PUMP (FLP MOTOR DRIVEN)"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919469/ambica-machine-tools/home/products-range/aoadeo1eeim4umfpytzi.svg",
+      "title": "TRIPLEX PLUNGER PUMP (FLP MOTOR DRIVEN)",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192955/ambica-machine-tools/home/products-range/lhuyuv0ukf3ekmlgtpet.png",
-      "title": "TRIPLEX HYDRO TEST - JET PUMP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919480/ambica-machine-tools/home/products-range/hoxlh5mvi8zvneo0ks5f.svg",
+      "title": "TRIPLEX HYDRO TEST - JET PUMP",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192955/ambica-machine-tools/home/products-range/fkxfujzzgvht8okb2rxg.png",
-      "title": " THERMIC FLUID PUMP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919476/ambica-machine-tools/home/products-range/sc2897uqfwqogxpjkikk.svg",
+      "title": " THERMIC FLUID PUMP",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192953/ambica-machine-tools/home/products-range/otsnqgocwgxpvfuye7kj.png",
-      "title": "CENTRIFUGAL PROCESS PUMP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919471/ambica-machine-tools/home/products-range/wzxyv7bv7uc6bv4jtnag.svg",
+      "title": "CENTRIFUGAL PROCESS PUMP",
+      "title2": ""
     },
     {
-      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721192953/ambica-machine-tools/home/products-range/isfpfeclw0agn1aklm8g.png",
-      "title": "AODD PUMP"
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721925804/ambica-machine-tools/home/products-range/u1nppqg341bnpltzjtua.svg",
+      "title": "BARREL PUMPS",
+      "title2": ""
+    },
+    {
+      "imgUrl": "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721919474/ambica-machine-tools/home/products-range/wtk72jfbemwhmghqfcsa.svg",
+      "title": "AODD PUMP",
+      "title2": ""
     }
   ],
   "certificates": [

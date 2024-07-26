@@ -76,6 +76,9 @@ function Footer() {
         </div>
 
         <div className="flex flex-col gap-y-3">
+          <h2 className="text-white font-bold text-2xl">
+            AMBICA MACHINE TOOLS
+          </h2>
           <div className="flex gap-x-2">
             <div className="capitalize text-white min-w-[23%]">address:</div>
             <p>

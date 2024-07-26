@@ -19,15 +19,15 @@ function ContactUsPage() {
       <div className="contact-form px-16 py-8 flex flex-col gap-y-10">
         <Heading text1={"get in"} text2={"touch"} width={"w-[10%]"} />
 
-        <div className="flex justify-around">
+        <div className="flex justify-around items-center">
           <div className="left w-[40%]">
             <Image
               src={
-                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720745941/ambica-machine-tools/contact-us/lqfdbkbjj7kncqnubmdn.svg"
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721929020/ambica-machine-tools/contact-us/chlritunl9pg14rymlaj.svg"
               }
               alt="contact-image"
               height={360}
-              width={491}
+              width={500}
             />
           </div>
 

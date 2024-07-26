@@ -42,7 +42,39 @@ export default function Home() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
+        },
+      },
+    ],
+  };
+
+  const settingsProducts = {
+    dots: false,
+    infinite: true,
+    speed: 5000,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
         },
       },
     ],
@@ -51,22 +83,22 @@ export default function Home() {
   return (
     <main className="">
       {/* banner  */}
-      <div className="banner h-[40vh] bg-black text-white flex justify-center items-center text-5xl">
+      <div className="banner h-[40vh] bg-black text-white flex justify-center items-center lg:text-5xl">
         BANNER PENDING...
       </div>
 
       {/* welcome section  */}
-      <div className="welcome-section px-16 py-8 flex flex-col gap-y-10">
+      <div className="welcome-section px-5 lg:px-16 py-6 lg:py-8 flex flex-col gap-y-10">
         {/* heading --  */}
         <Heading
           text1={"welcome to"}
           text2={"ambica machine tools"}
-          width={"w-[14%]"}
+          width={"w-[40%] lg:w-[14%]"}
         />
 
         {/* content -- */}
-        <div className="content flex">
-          <div className="left w-[40%]">
+        <div className="content flex flex-col lg:flex-row gap-x-4 gap-y-8">
+          <div className="left lg:w-[40%]">
             <Image
               src={
                 "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720585321/ambica-machine-tools/home/xbbkkb6xigpll6gb00sl.svg"
@@ -77,7 +109,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="right w-[60%] text-lg flex flex-col gap-y-6 justify-center">
+          <div className="right lg:w-[60%] lg:text-lg flex flex-col gap-y-4 lg:gap-y-6 justify-center">
             <p>
               Ambica Machine Tools was established in 2006 with an aim to
               provide impeccable engineering and pumping solutions.Mainly, the
@@ -106,10 +138,10 @@ export default function Home() {
         </div>
 
         {/* buttons --  */}
-        <div className="buttons w-[60%] ml-auto flex gap-x-6">
+        <div className="buttons w-[100%] mx-auto lg:mx-0 lg:w-[60%] lg:ml-auto flex flex-col lg:flex-row gap-y-3 gap-x-6">
           <button>
             <Link
-              href={"/"}
+              href={"/about-us"}
               className="flex items-center gap-x-4 text-lg capitalize border-[3px] rounded-md px-4 py-2 border-themeCarrot text-themeCarrot font-semibold"
             >
               <span>read more</span>
@@ -134,13 +166,17 @@ export default function Home() {
       </div>
 
       {/* vision and mission  */}
-      <div className="vision-and-mission px-16 py-8">
+      <div className="vision-and-mission px-5 lg:px-16 py-6 lg:py-8">
         {/* heading --  */}
-        <Heading text1={"our"} text2={"vision & mission"} width={"w-[4.5%]"} />
+        <Heading
+          text1={"our"}
+          text2={"vision & mission"}
+          width={"w-[15%] lg:w-[4.5%]"}
+        />
 
         {/* content  */}
-        <div className="content flex justify-evenly pt-24">
-          <div className="left p-6 border-[3px] border-themeCarrot rounded-lg w-[40%] flex flex-col gap-y-4 relative">
+        <div className="content flex flex-col gap-y-14 lg:flex-row justify-evenly pt-20 lg:pt-24">
+          <div className="left p-6 border-[3px] border-themeCarrot rounded-lg lg:w-[40%] flex flex-col gap-y-4 relative">
             <h2 className="text-2xl uppercase font-bold">
               <span>our</span>
               <span className="text-themeCarrot"> mission</span>
@@ -161,17 +197,27 @@ export default function Home() {
               alt={"icon"}
               height={150}
               width={150}
-              className="absolute -top-24 right-14"
+              className="absolute -top-24 right-14 hidden lg:block"
+            />
+
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720590961/ambica-machine-tools/home/bkautdha0bpqiod6v4vy.svg"
+              }
+              alt={"icon"}
+              height={100}
+              width={100}
+              className="absolute -top-[3rem] right-8 lg:hidden block"
             />
           </div>
 
-          <div className="right p-6 border-[3px] border-themeCarrot rounded-lg w-[40%] flex flex-col gap-y-4 relative">
+          <div className="right p-6 border-[3px] border-themeCarrot rounded-lg lg:w-[40%] flex flex-col gap-y-4 relative">
             <h2 className="text-2xl uppercase font-bold">
               <span>our</span>
               <span className="text-themeCarrot"> vision</span>
             </h2>
 
-            <p className="pr-10 ">
+            <p className="lg:pr-10 ">
               Quality has always been a buzzword in our company premises.
               Keeping professionalism as our hallmark, we direct our efforts to
               keep &apos;quality&apos; as our mainstay in all our endeavors.
@@ -184,46 +230,69 @@ export default function Home() {
               alt={"icon"}
               height={150}
               width={150}
-              className="absolute -top-24 right-14"
+              className="absolute -top-24 right-14 hidden lg:block"
+            />
+
+            <Image
+              src={
+                "https://res.cloudinary.com/dhv2udxw2/image/upload/v1720590959/ambica-machine-tools/home/crsvbkf5lhiwbxar1lcl.svg"
+              }
+              alt={"icon"}
+              height={100}
+              width={100}
+              className="absolute -top-[3rem] right-8 lg:hidden block"
             />
           </div>
         </div>
       </div>
 
       {/* products section  */}
-      <div className="product-section px-16 py-8 flex flex-col gap-y-10">
+      <div className="product-section  py-6 lg:py-8 flex flex-col gap-y-10">
         {/* heading  */}
-        <Heading text1={"our"} text2={"products"} width={"w-[4.5%]"} />
+        <div className="px-5 lg:px-16">
+          <Heading
+            text1={"our"}
+            text2={"products"}
+            width={"w-[15%] lg:w-[4.5%]"}
+          />
+        </div>
 
         {/* content  */}
-        <div className="content flex justify-between">
-          {products.map((item, index) => (
-            <div
-              className="product bg-[#d9d9d9] w-[30%] cursor-pointer"
-              key={`product-no-${index + 1}`}
-            >
-              <Image
-                src={item.imgUrl}
-                alt="product-image"
-                height={206}
-                width={331}
-                className="mx-auto py-6 px-2 hover:scale-[1.01] transition-all min-h-[50vh]"
-              />
+        <div className="content max-w-screen bg-[#d9d9d9] overflow-hidden">
+          <Slider {...settingsProducts}>
+            {products.map((item, index) => (
+              <div
+                className="product lg:w-[30%] min-h-[70vh] border-[10px] pretty-border transition-all border-white cursor-pointer"
+                key={`product-no-${index + 1}`}
+              >
+                <Image
+                  src={item.imgUrl}
+                  alt="product-image"
+                  height={206}
+                  width={331}
+                  className="mx-auto  py-6 px-2 transition-all lg:min-h-[40vh]"
+                />
 
-              <div className="flex flex-col py-3 w-[90%] mx-auto border-t-[3px] border-themeCarrot justify-center items-center">
-                <div className="font-bold uppercase">{item.itemName}</div>
-                <div className="font-bold uppercase">{item.modelName}</div>
+                <div className="flex flex-col py-3 w-[90%] mx-auto border-t-[3px] border-themeCarrot justify-center text-center items-center">
+                  <div className="font-bold uppercase">{item.itemName}</div>
+                  <div className="font-bold uppercase">{item.modelName}</div>
+                  <div className="font-bold uppercase">{item.modelNameTwo}</div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </Slider>
         </div>
       </div>
 
       {/* product's range section  */}
-      <div className="products-range py-8 flex flex-col gap-y-10 max-w-screen overflow-hidden">
+      <div className="products-range py-6 lg:py-8 flex flex-col gap-y-10 max-w-screen overflow-hidden">
         {/* heading  */}
-        <div className="px-16">
-          <Heading text1={"our"} text2={"product's range"} width={"w-[4.5%]"} />
+        <div className="px-5 lg:px-16">
+          <Heading
+            text1={"our"}
+            text2={"product's range"}
+            width={"w-[15%] lg:w-[4.5%]"}
+          />
         </div>
 
         {/* content  */}
@@ -231,21 +300,24 @@ export default function Home() {
           <Slider {...settings}>
             {productsRange.map((item, index) => (
               <div
-                className="slider-product carousel-slide border-[10px] border-white w-[19%] cursor-pointer rounded-lg"
+                className="slider-product carousel-slide border-[10px] border-white lg:w-[19%] cursor-pointer rounded-b-lg hover:scale-[1.02] transition-all"
                 key={`product-range-no-${index + 1}`}
               >
-                <div className="border-[3px] rounded-lg border-themeCarrot">
+                <div className="border-[3px] relative rounded-lg border-themeCarrot">
+                  <div className="p-4a absolute top-5 left-5 text-xl font-semibold">
+                    {index+1}
+                  </div>
                   <Image
                     src={item.imgUrl}
                     alt="prodict-img-slider"
                     height={230}
                     width={230}
-                    className="mx-auto min-h-[35vh] rounded-lg"
+                    className="mx-auto lg:min-h-[35vh] rounded-lg"
                   />
                 </div>
 
                 <div className="">
-                  <h3 className="uppercase px-4 min-h-[10vh] flex items-center justify-center font-bold text-center py-2 bg-[#f4f4f4] rounded-lg">
+                  <h3 className="uppercase px-4 min-h-[10vh] flex items-center justify-center font-bold text-center py-2 bg-[#f4f4f4] rounded-b-lg">
                     {item.title}
                   </h3>
                 </div>
@@ -256,12 +328,16 @@ export default function Home() {
       </div>
 
       {/* certificates section  */}
-      <div className="certificates py-8 px-16 flex flex-col gap-y-10">
+      <div className="certificates py-0 lg:py-8 px-5 lg:px-16 flex flex-col gap-y-10">
         <div>
-          <Heading text1={"our"} text2={"certificates"} width={"w-[4.5%]"} />
+          <Heading
+            text1={"our"}
+            text2={"certificates"}
+            width={"w-[15%] lg:w-[4.5%]"}
+          />
         </div>
 
-        <div className="content flex justify-between">
+        <div className="content flex flex-wrap flex-row gap-y-3 justify-between">
           {certificates.map((item, index) => (
             <Image
               src={item}
@@ -269,14 +345,14 @@ export default function Home() {
               height={334}
               width={239}
               key={`certificate-no-${index + 1}`}
-              className="mx-auto cursor-pointer hover:scale-[1.05] transition-all"
+              className="mx-auto cursor-pointer hover:scale-[1.05] w-[45%] lg:w-auto transition-all"
             />
           ))}
         </div>
       </div>
 
       {/* contact section  */}
-      <div className="contact px-16 py-8">
+      <div className="contact px-5 lg:px-16 py-6 lg:py-8">
         <Heading text1={"get in"} text2={"touch"} width={"w-[7%]"} />
 
         <div className="content">
@@ -312,7 +388,7 @@ export default function Home() {
                   </div>
                   <div className=" text-[#4a4b54]">
                     info@ambicamachinetools.com <br />{" "}
-                    sales@ambicamachinetools.com 
+                    sales@ambicamachinetools.com
                   </div>
                 </div>
               </div>
