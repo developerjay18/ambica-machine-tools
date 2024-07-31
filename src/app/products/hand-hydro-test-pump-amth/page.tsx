@@ -1,11 +1,10 @@
 "use client";
 
 import React from "react";
-import { FaCircle } from "react-icons/fa";
 import Image from "next/image";
 import Heading from "@/components/Heading/Heading";
 import data from "@/data/hand_hydro_test_pump_data.json";
-import TableHeading from "@/components/TableHeading/TableHeading";
+import { montserrat } from "@/app/fonts";
 
 function HandHydroTestPumpAMTHPage() {
   const { moc, application, specialFects } = data;
@@ -13,40 +12,18 @@ function HandHydroTestPumpAMTHPage() {
   return (
     <main>
       {/* banner  */}
-      <div className="banner h-[40vh] bg-[#2e2e2e] text-white flex text-5xl px-16 items-center">
-        <div className="left w-[50%] uppercase font-semibold flex flex-col gap-y-3">
-          <h1>product</h1>
-          <div className="flex items-center gap-x-2">
-            <div className="w-20 h-1 bg-white"></div>
-            <div className="text-sm flex gap-x-1">
-              <FaCircle />
-              <FaCircle />
-            </div>
-            <div className="w-20 h-1 bg-white"></div>
-          </div>
-          <h1 className="leading-[3.5rem]">
-            HAND HYDRO TEST PUMP <br /> (AMTH)
+      <div
+        className={`product-two-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white ${montserrat.className}`}
+      >
+        <div className=" w-[37%] flex flex-col gap-y-4">
+          <h1 className="text-4xl font-bold text-center inline-flex capitalize">
+            Manufacturer of <br /> hand hydro test pump <br /> (AMTH Series)
           </h1>
-        </div>
-        <div className="right w-[50%] flex mx-auto">
-          <Image
-            src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721271649/ambica-machine-tools/hand-hydro-test-pump-amth/g08ls9mhpxsa1lyjdsgm.png"
-            }
-            alt="product-banner-image"
-            height={231}
-            width={326}
-            className="mx-auto"
-          />
-          <Image
-            src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721271649/ambica-machine-tools/hand-hydro-test-pump-amth/cuvsqiozj1wkgajdg8wv.png"
-            }
-            alt="product-banner-image"
-            height={231}
-            width={326}
-            className="mx-auto"
-          />
+          <p className="inline-flex text-center">
+            Hand Hydro Test Pump - AMTH Series AMBICA MACHINE TOOLS is one of
+            the prominent leading Manufacturer and Supplier of Various kind of
+            test pumps and more...
+          </p>
         </div>
       </div>
 

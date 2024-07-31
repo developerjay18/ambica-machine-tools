@@ -28,7 +28,7 @@ th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-tr.special{
+tr.special {
   background-color: #242323;
 }
 
@@ -60,4 +60,59 @@ tr.special{
   border: 10px solid #b32d2f;
   border-top: none;
   border-left: none;
+}
+
+/* banners  */
+.home-banner {
+  background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1722395446/ambica-machine-tools/home/pkaylg7ay0cuznutcmis.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-banner {
+  background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1722401050/ambica-machine-tools/about-us/rxu0xkgydotmyzrv69kk.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-banner {
+  background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1722398900/ambica-machine-tools/contact-us/sp2fnvb89p9b8hkecfz1.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-one-banner {
+  background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1722444202/ambica-machine-tools/motor-hydro-test-pump/adi18d6u55ayhpbbmheo.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-two-banner {
+  background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1722444386/ambica-machine-tools/cx9k0q8vlv5zqfrxzepc.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-three-banner {
+  background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1722445416/ambica-machine-tools/sgr6oqzx5bkub7r7w2ng.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-four-banner {
+  background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1722445720/ambica-machine-tools/q92cr5yybgo5kocwxqm2.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-five-banner {
+  background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1722446090/ambica-machine-tools/ubawx0dvcv340ocrbpv9.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-six-banner {
+  background-image: url("https://res.cloudinary.com/dhv2udxw2/image/upload/v1722446510/ambica-machine-tools/ptux6vh4lez6q5w3ljgq.svg");
+  background-size: cover;
+  background-position: center;
 }

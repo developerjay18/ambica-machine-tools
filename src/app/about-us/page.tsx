@@ -14,8 +14,10 @@ function AboutUsPage() {
   return (
     <main>
       {/* banner  */}
-      <div className="banner h-[40vh] bg-black text-white flex justify-center items-center text-5xl">
-        ABOUT US
+      <div
+        className={`about-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white`}
+      >
+       
       </div>
 
       {/* hero section  */}
@@ -80,7 +82,8 @@ function AboutUsPage() {
         </div>
 
         <h1 className="text-5xl w-[90%] leading-[3.7rem]">
-          Ambica Machine Tools India&apos;s Largest manufacturer of Industrial Pumps and Valves.
+          Ambica Machine Tools India&apos;s Largest manufacturer of Industrial
+          Pumps and Valves.
         </h1>
 
         <div className="flex justify-between">

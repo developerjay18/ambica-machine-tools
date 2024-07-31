@@ -11,9 +11,9 @@ function ContactUsPage() {
   return (
     <main>
       {/* banner  */}
-      <div className="banner h-[40vh] bg-black text-white flex justify-center items-center text-5xl">
-        CONTACT US
-      </div>
+      <div
+        className={`contact-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white`}
+      ></div>
 
       {/* contact form  */}
       <div className="contact-form px-16 py-8 flex flex-col gap-y-10">
@@ -148,7 +148,7 @@ function ContactUsPage() {
               <div className="">
                 <h3 className="text-lg font-semibold">PHONE NO.</h3>
                 <div className="">
-                  +91 9328289287 <br /> +91 9604253837
+                  +91 9328289287 <br /> +91 9601253837
                 </div>
               </div>
             </div>

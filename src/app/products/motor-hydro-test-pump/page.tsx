@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { FaCircle } from "react-icons/fa";
+import { montserrat } from "@/app/fonts";
 import Image from "next/image";
 import Heading from "@/components/Heading/Heading";
 import data from "@/data/motor_hydro_test_pump_data.json";
@@ -13,38 +13,18 @@ function MotorHydroTestPumpPage() {
   return (
     <main>
       {/* banner  */}
-      <div className="banner h-[40vh] bg-[#2e2e2e] text-white flex text-5xl px-16 items-center">
-        <div className="left w-[50%] uppercase font-semibold flex flex-col gap-y-3">
-          <h1>product</h1>
-          <div className="flex items-center gap-x-2">
-            <div className="w-20 h-1 bg-white"></div>
-            <div className="text-sm flex gap-x-1">
-              <FaCircle />
-              <FaCircle />
-            </div>
-            <div className="w-20 h-1 bg-white"></div>
-          </div>
-          <h1>MOTOR HYDRO TEST PUMP</h1>
-        </div>
-        <div className="right flex w-[50%] mx-auto">
-          <Image
-            src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721275439/ambica-machine-tools/motor-hydro-test-pump/jdllquu9senilhzla4l1.png"
-            }
-            alt="product-banner-image"
-            height={231}
-            width={326}
-            className="mx-auto"
-          />
-          <Image
-            src={
-              "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721275439/ambica-machine-tools/motor-hydro-test-pump/iusxhc4hfjhfhp6jabj0.png"
-            }
-            alt="product-banner-image"
-            height={231}
-            width={326}
-            className="mx-auto"
-          />
+      <div
+        className={`product-one-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white ${montserrat.className}`}
+      >
+        <div className=" w-[37%] flex flex-col gap-y-4">
+          <h1 className="text-4xl font-bold text-center inline-flex capitalize">
+            Manufacturer of <br /> motor hydro test pump <br /> (AMTMH Series)
+          </h1>
+          <p className="inline-flex text-center">
+            Motor Hydro Test Pump - AMTMH Series AMBICA MACHINE TOOLS is one of
+            the prominent leading Manufacturer and Supplier of Various kind of
+            test pumps and more...
+          </p>
         </div>
       </div>
 

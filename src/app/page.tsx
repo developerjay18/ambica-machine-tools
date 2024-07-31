@@ -12,6 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { IoIosCall } from "react-icons/io";
 import { IoMail } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
+import { montserrat } from "./fonts";
 
 export default function Home() {
   const { products, productsRange, certificates } = data;
@@ -83,8 +84,23 @@ export default function Home() {
   return (
     <main className="">
       {/* banner  */}
-      <div className="banner h-[40vh] bg-black text-white flex justify-center items-center lg:text-5xl">
-        BANNER PENDING...
+      <div
+        className={`product-three-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white ${montserrat.className}`}
+      >
+        <div className=" w-[37%] flex flex-col gap-y-4">
+          <h1 className="text-4xl font-bold text-center inline-flex">
+            Manufacturer of <br /> Hydro Jetting Machine{" "}
+          </h1>
+          <p className="inline-flex">
+            Diesel Engine Drive & Electric Motor Driven Hydro Jetting Pump,
+            AMBICA MACHINE TOOLS is one of the prominent leading Manufacturer
+            and Supplier of Water Jet Cleaner Pump More…..
+          </p>
+
+          <Link href={"/about-us"}>
+            <button className="inline-flex px-4 py-2 bg-white text-black font-semibold rounded-md">Read More</button>
+          </Link>
+        </div>
       </div>
 
       {/* welcome section  */}
@@ -304,21 +320,22 @@ export default function Home() {
                 key={`product-range-no-${index + 1}`}
               >
                 <div className="border-[3px] relative rounded-lg border-themeCarrot">
-                  <div className="p-4a absolute top-5 left-5 text-xl font-semibold">
-                    {index+1}
+                  <div className="p-4a absolute top-2 left-2 text-xl font-semibold">
+                    {index <= 9 ? `0${index + 1}` : `${index}`}
                   </div>
                   <Image
                     src={item.imgUrl}
                     alt="prodict-img-slider"
                     height={230}
                     width={230}
-                    className="mx-auto lg:min-h-[35vh] rounded-lg"
+                    className="mx-auto mt-8 lg:min-h-[35vh] rounded-lg"
                   />
                 </div>
 
                 <div className="">
-                  <h3 className="uppercase px-4 min-h-[10vh] flex items-center justify-center font-bold text-center py-2 bg-[#f4f4f4] rounded-b-lg">
-                    {item.title}
+                  <h3 className="uppercase px-4 min-h-[10vh] flex flex-col items-center justify-center font-bold text-center py-2 bg-[#f4f4f4] rounded-b-lg">
+                    {item.title} <br />
+                    {item.title2}
                   </h3>
                 </div>
               </div>
@@ -378,7 +395,7 @@ export default function Home() {
                     <IoIosCall />
                   </div>
                   <div className=" text-[#4a4b54]">
-                    +91 9328289287 <br /> +91 9604253837
+                    +91 9328289287 <br /> +91 9601253837
                   </div>
                 </div>
 
