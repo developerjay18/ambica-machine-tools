@@ -14,7 +14,7 @@ function MotorHydroTestPumpPage() {
     <main>
       {/* banner  */}
       <div
-        className={`product-one-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white ${montserrat.className}`}
+        className={`product-one-banner shadow-lg flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white ${montserrat.className}`}
       >
         <div className=" w-[37%] flex flex-col gap-y-4">
           <h1 className="text-4xl font-bold text-center inline-flex capitalize">

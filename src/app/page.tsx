@@ -95,7 +95,7 @@ export default function Home() {
   return (
     <main className="">
       {/* banner  */}
-      <div className="max-w-screen overflow-hidden">
+      <div className="max-w-screen shadow-lg overflow-hidden">
         <Slider {...bannerSettings}>
           <div
             className={`product-three-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white ${montserrat.className}`}
@@ -380,7 +380,7 @@ export default function Home() {
               >
                 <div className="border-[3px] relative rounded-lg border-themeCarrot">
                   <div className="p-4a absolute top-2 left-2 text-xl font-semibold">
-                    {index <= 9 ? `0${index + 1}` : `${index}`}
+                    {(index+1) <= 9 ? `0${index + 1}` : `${index+1}`}
                   </div>
                   <Image
                     src={item.imgUrl}
@@ -392,7 +392,7 @@ export default function Home() {
                 </div>
 
                 <div className="">
-                  <h3 className="uppercase px-4 min-h-[10vh] flex flex-col items-center justify-center font-bold text-center py-2 bg-[#f4f4f4] rounded-b-lg">
+                  <h3 className="uppercase px-4 min-h-[10vh] flex flex-col items-center justify-center font-bold text-center py-2 rounded-b-lg">
                     {item.title} <br />
                     {item.title2}
                   </h3>

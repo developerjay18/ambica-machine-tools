@@ -12,7 +12,7 @@ function ContactUsPage() {
     <main>
       {/* banner  */}
       <div
-        className={`contact-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white`}
+        className={`contact-banner shadow-lg flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white`}
       ></div>
 
       {/* contact form  */}

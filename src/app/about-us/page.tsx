@@ -15,7 +15,7 @@ function AboutUsPage() {
     <main>
       {/* banner  */}
       <div
-        className={`about-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white`}
+        className={`about-banner shadow-lg flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white`}
       ></div>
 
       {/* hero section  */}
