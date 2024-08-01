@@ -9,9 +9,9 @@ import { FaInstagram } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="bg-[#242323] px-16 text-[#bdbec1] py-10 flex justify-between">
+    <footer className="bg-[#242323] px-5 lg:px-16 text-[#bdbec1] py-6 lg:py-10 flex flex-col lg:flex-row justify-between gap-y-8">
       {/* .left  */}
-      <div className="left w-[20%] flex flex-col gap-y-6">
+      <div className="left lg:w-[20%] flex flex-col gap-y-4 lg:gap-y-6">
         <div className="">
           <Link href={"/"}>
             <Image
@@ -45,9 +45,9 @@ function Footer() {
         </div>
       </div>
 
-      <div className="left-one w-[15%] flex flex-col gap-y-6">
+      <div className="left-one lg:w-[15%] flex flex-col gap-y-6">
         <div className="heading">
-          <h1 className="text-3xl uppercase font-bold flex flex-col gap-x-2">
+          <h1 className="text-2xl lg:text-3xl uppercase font-bold flex flex-row lg:flex-col gap-x-2">
             <span className="text-white">our</span>
             <span className="text-themeCarrot">QR code</span>
           </h1>
@@ -66,9 +66,9 @@ function Footer() {
         </div>
       </div>
 
-      <div className="right w-[30%] flex flex-col gap-y-6">
+      <div className="right lg:w-[30%] flex flex-col gap-y-4 lg:gap-y-6">
         <div className="heading">
-          <h1 className="text-3xl uppercase font-bold flex-col flex gap-x-2">
+          <h1 className="text-2xl lg:text-3xl uppercase font-bold flex-row lg:flex-col flex gap-x-2">
             <span className="text-white">our</span>
             <span className="text-themeCarrot">details</span>
           </h1>
@@ -106,9 +106,9 @@ function Footer() {
         </div>
       </div>
 
-      <div className="left-one w-[23%] flex flex-col gap-y-6">
+      <div className="left-one lg:w-[23%] flex flex-col gap-y-6">
         <div className="heading">
-          <h1 className="text-3xl uppercase font-bold flex flex-col gap-x-2">
+          <h1 className="text-2xl lg:text-3xl uppercase font-bold flex flex-row lg:flex-col gap-x-2">
             <span className="text-white">global</span>
             <span className="text-themeCarrot">network</span>
           </h1>

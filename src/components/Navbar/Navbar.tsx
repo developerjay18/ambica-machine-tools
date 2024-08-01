@@ -186,7 +186,7 @@ function Navbar() {
       </div>
 
       {/* for samller screens  */}
-      <div className="relative lg:hidden w-full py-2 pl-3 pr-2 bg-[#CB4143] text-white">
+      <div className="relative lg:hidden w-full py-2 pl-3 pr-2 bg-[white] text-black">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
           <div className="inline-flex items-center space-x-2">
             <Link href={"/"}>
@@ -295,6 +295,34 @@ function Navbar() {
                               >
                                 <Link
                                   className="my-2 block border-b border-gray-100 py-1 font-medium text-white hover:text-themeOrange md:mx-2 capitalize"
+                                  href={"/products/motor-hydro-test-pump"}
+                                >
+                                  motor hydro test pump (AMTMH)
+                                </Link>
+
+                                <Link
+                                  className="my-2 block border-b border-gray-100 py-1 font-medium text-white hover:text-themeOrange md:mx-2 capitalize"
+                                  href={"/products/hand-hydro-test-pump-amth"}
+                                >
+                                  hand hydro test pump (AMTH)
+                                </Link>
+
+                                <Link
+                                  className="my-2 block border-b border-gray-100 py-1 font-medium text-white hover:text-themeOrange md:mx-2 capitalize"
+                                  href={"/products/triplex-plunger-pump-jhp"}
+                                >
+                                  triplex plunger pump (JHP)
+                                </Link>
+
+                                <Link
+                                  className="my-2 block border-b border-gray-100 py-1 font-medium text-white hover:text-themeOrange md:mx-2 capitalize"
+                                  href={"/products/triplex-plunger-pump-amttpp"}
+                                >
+                                  triplex plunger pump (AMTTPP)
+                                </Link>
+
+                                <Link
+                                  className="my-2 block border-b border-gray-100 py-1 font-medium text-white hover:text-themeOrange md:mx-2 capitalize"
                                   href={"/products/triplex-plunger-pump-amtlp"}
                                 >
                                   triplex plunger pump (AMTLP)
@@ -312,34 +340,6 @@ function Navbar() {
                                   href={"/products/triplex-plunger-pump-amthp"}
                                 >
                                   triplex plunger pump (AMTHP)
-                                </Link>
-
-                                <Link
-                                  className="my-2 block border-b border-gray-100 py-1 font-medium text-white hover:text-themeOrange md:mx-2 capitalize"
-                                  href={"/products/hand-hydro-test-pump-amth"}
-                                >
-                                  hand hydro test pump (AMTH)
-                                </Link>
-
-                                <Link
-                                  className="my-2 block border-b border-gray-100 py-1 font-medium text-white hover:text-themeOrange md:mx-2 capitalize"
-                                  href={"/products/triplex-plunger-pump-amttpp"}
-                                >
-                                  triplex plunger pump (AMTTPP)
-                                </Link>
-
-                                <Link
-                                  className="my-2 block border-b border-gray-100 py-1 font-medium text-white hover:text-themeOrange md:mx-2 capitalize"
-                                  href={"/products/motor-hydro-test-pump"}
-                                >
-                                  motor hydro test pump
-                                </Link>
-
-                                <Link
-                                  className="my-2 block border-b border-gray-100 py-1 font-medium text-white hover:text-themeOrange md:mx-2 capitalize"
-                                  href={"/products/triplex-plunger-pump-jhp"}
-                                >
-                                  triplex plunger pump (JHP)
                                 </Link>
                               </div>
                             </div>

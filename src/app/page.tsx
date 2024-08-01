@@ -49,6 +49,17 @@ export default function Home() {
     ],
   };
 
+  const bannerSettings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
+  };
+
   const settingsProducts = {
     dots: false,
     infinite: true,
@@ -69,13 +80,13 @@ export default function Home() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
     ],
@@ -84,23 +95,71 @@ export default function Home() {
   return (
     <main className="">
       {/* banner  */}
-      <div
-        className={`product-three-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white ${montserrat.className}`}
-      >
-        <div className=" w-[37%] flex flex-col gap-y-4">
-          <h1 className="text-4xl font-bold text-center inline-flex">
-            Manufacturer of <br /> Hydro Jetting Machine{" "}
-          </h1>
-          <p className="inline-flex">
-            Diesel Engine Drive & Electric Motor Driven Hydro Jetting Pump,
-            AMBICA MACHINE TOOLS is one of the prominent leading Manufacturer
-            and Supplier of Water Jet Cleaner Pump More…..
-          </p>
+      <div className="max-w-screen overflow-hidden">
+        <Slider {...bannerSettings}>
+          <div
+            className={`product-three-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white ${montserrat.className}`}
+          >
+            <div className=" w-[37%] flex flex-col gap-y-4">
+              <h1 className="text-4xl font-bold text-center inline-flex">
+                Manufacturer of <br /> Hydro Jetting Machine{" "}
+              </h1>
+              <p className="inline-flex">
+                Diesel Engine Drive & Electric Motor Driven Hydro Jetting Pump,
+                AMBICA MACHINE TOOLS is one of the prominent leading
+                Manufacturer and Supplier of Water Jet Cleaner Pump More…..
+              </p>
 
-          <Link href={"/about-us"}>
-            <button className="inline-flex px-4 py-2 bg-white text-black font-semibold rounded-md">Read More</button>
-          </Link>
-        </div>
+              <Link href={"/about-us"}>
+                <button className="inline-flex px-4 py-2 bg-white text-black font-semibold rounded-md">
+                  Read More
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          <div
+            className={`product-one-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white ${montserrat.className}`}
+          >
+            <div className=" w-[37%] flex flex-col gap-y-4">
+              <h1 className="text-4xl font-bold text-center inline-flex">
+                Manufacturer of <br /> Hydro Jetting Machine{" "}
+              </h1>
+              <p className="inline-flex">
+                Diesel Engine Drive & Electric Motor Driven Hydro Jetting Pump,
+                AMBICA MACHINE TOOLS is one of the prominent leading
+                Manufacturer and Supplier of Water Jet Cleaner Pump More…..
+              </p>
+
+              <Link href={"/about-us"}>
+                <button className="inline-flex px-4 py-2 bg-white text-black font-semibold rounded-md">
+                  Read More
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          <div
+            className={`product-five-banner flex pt-28 pl-[15rem] flex-col h-[480px] bg-black text-white ${montserrat.className}`}
+          >
+            <div className=" w-[37%] flex flex-col gap-y-4">
+              <h1 className="text-4xl font-bold text-center inline-flex">
+                Manufacturer of <br /> Hydro Jetting Machine{" "}
+              </h1>
+              <p className="inline-flex">
+                Diesel Engine Drive & Electric Motor Driven Hydro Jetting Pump,
+                AMBICA MACHINE TOOLS is one of the prominent leading
+                Manufacturer and Supplier of Water Jet Cleaner Pump More…..
+              </p>
+
+              <Link href={"/about-us"}>
+                <button className="inline-flex px-4 py-2 bg-white text-black font-semibold rounded-md">
+                  Read More
+                </button>
+              </Link>
+            </div>
+          </div>
+        </Slider>
       </div>
 
       {/* welcome section  */}
@@ -278,7 +337,7 @@ export default function Home() {
           <Slider {...settingsProducts}>
             {products.map((item, index) => (
               <div
-                className="product lg:w-[30%] min-h-[70vh] border-[10px] pretty-border transition-all border-white cursor-pointer"
+                className="product lg:w-[30%] min-h-[50vh] lg:min-h-[70vh] border-[10px] pretty-border transition-all border-white cursor-pointer"
                 key={`product-no-${index + 1}`}
               >
                 <Image
@@ -369,13 +428,13 @@ export default function Home() {
       </div>
 
       {/* contact section  */}
-      <div className="contact px-5 lg:px-16 py-6 lg:py-8">
-        <Heading text1={"get in"} text2={"touch"} width={"w-[7%]"} />
+      <div className="contact px-5 lg:px-16 py-10 lg:py-8">
+        <Heading text1={"get in"} text2={"touch"} width={"w-[20%] lg:w-[7%]"} />
 
         <div className="content">
           <div className="contact" id="contact">
-            <div className="flex mt-12">
-              <div className="left w-1/2 flex flex-col gap-y-6">
+            <div className="flex flex-col lg:flex-row gap-y-8 mt-8 lg:mt-12">
+              <div className="left lg:w-1/2 flex flex-col gap-y-4 lg:gap-y-6">
                 <h2 className="uppercase font-bold text-xl text-themeCarrot">
                   ambica machine tools
                 </h2>
@@ -383,7 +442,7 @@ export default function Home() {
                   <div className="text-2xl">
                     <FaLocationDot />
                   </div>
-                  <div className="mr-[220px] text-[#4a4b54]">
+                  <div className="lg:mr-[220px] text-[#4a4b54]">
                     Plot No.24/25-1, Zaveri Ind. Estate, Opp. Shubh Estate Gate,
                     Kathwada - Singarva Road, Kathwada, Ahmedabad-382430.Gujarat
                     - INDIA.
@@ -410,7 +469,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="right w-1/2">
+              <div className="right lg:w-1/2">
                 <form
                   action="#"
                   method="post"

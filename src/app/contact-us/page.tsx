@@ -16,11 +16,11 @@ function ContactUsPage() {
       ></div>
 
       {/* contact form  */}
-      <div className="contact-form px-16 py-8 flex flex-col gap-y-10">
+      <div className="contact-form px-5 lg:px-16 py-8 flex flex-col gap-y-8 lg:gap-y-10">
         <Heading text1={"get in"} text2={"touch"} width={"w-[10%]"} />
 
-        <div className="flex justify-around items-center">
-          <div className="left w-[40%]">
+        <div className="flex gap-y-4 flex-col lg:flex-row lg:justify-around items-center">
+          <div className="left lg:w-[40%]">
             <Image
               src={
                 "https://res.cloudinary.com/dhv2udxw2/image/upload/v1721929020/ambica-machine-tools/contact-us/chlritunl9pg14rymlaj.svg"
@@ -31,10 +31,10 @@ function ContactUsPage() {
             />
           </div>
 
-          <div className="right w-[50%]">
-            <form action="" method="post" className="flex flex-col gap-y-3">
-              <div className="flex gap-x-10">
-                <div className="flex flex-col w-1/2">
+          <div className="right w-[100%] lg:w-[50%]">
+            <form action="" method="post" className="flex flex-col lg:gap-y-3">
+              <div className="flex flex-col lg:flex-row gap-x-10">
+                <div className="flex flex-col lg:w-1/2">
                   <input
                     type="text"
                     name="name"
@@ -43,7 +43,7 @@ function ContactUsPage() {
                     className="border-b-2 capitalize px-2 py-2 focus:outline-none border-[#4a4b54] mt-2"
                   />
                 </div>
-                <div className="flex flex-col w-1/2">
+                <div className="flex flex-col lg:w-1/2">
                   <input
                     type="text"
                     name="email"
@@ -54,8 +54,8 @@ function ContactUsPage() {
                 </div>
               </div>
 
-              <div className="flex gap-x-10">
-                <div className="flex flex-col w-1/2">
+              <div className="flex flex-col lg:flex-row gap-x-10">
+                <div className="flex flex-col lg:w-1/2">
                   <input
                     type="text"
                     name="address"
@@ -64,7 +64,7 @@ function ContactUsPage() {
                     className="border-b-2 capitalize px-2 py-2 focus:outline-none border-[#4a4b54] mt-2"
                   />
                 </div>
-                <div className="flex flex-col w-1/2">
+                <div className="flex flex-col lg:w-1/2">
                   <input
                     type="text"
                     name="product"
@@ -75,8 +75,8 @@ function ContactUsPage() {
                 </div>
               </div>
 
-              <div className="flex gap-x-10">
-                <div className="flex flex-col w-1/2">
+              <div className="flex flex-col lg:flex-row gap-x-10">
+                <div className="flex flex-col lg:w-1/2">
                   <input
                     type="text"
                     name="phoneNum"
@@ -85,7 +85,7 @@ function ContactUsPage() {
                     className="border-b-2 capitalize px-2 py-2 focus:outline-none border-[#4a4b54] mt-2"
                   />
                 </div>
-                <div className="flex flex-col w-1/2">
+                <div className="flex flex-col lg:w-1/2">
                   <input
                     type="text"
                     name="company"
@@ -119,12 +119,12 @@ function ContactUsPage() {
       </div>
 
       {/* information  */}
-      <div className="information px-16 py-8">
-        <div className="box rounded-xl bg-[#f4f4f4] p-8 flex flex-col gap-y-10">
+      <div className="information px-5 lg:px-16 pb-6 lg:py-8">
+        <div className="box rounded-xl bg-[#f4f4f4] p-8 flex flex-col gap-y-6 lg:gap-y-10">
           <Heading
             text1={"head office"}
             text2={"- manufacturing"}
-            width={"w-[14%]"}
+            width={"w-[40%] lg:w-[14%]"}
           />
 
           <div className="flex flex-col gap-y-6">
