@@ -150,7 +150,7 @@ function Navbar() {
                         >
                           triplex plunger pump (AMTTPP)
                         </Link>
-
+{/* 
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
                           href={"/products/triplex-plunger-pump-amtlp"}
@@ -170,7 +170,7 @@ function Navbar() {
                           href={"/products/triplex-plunger-pump-amthp"}
                         >
                           triplex plunger pump (AMTHP)
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>
