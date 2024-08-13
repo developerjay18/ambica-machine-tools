@@ -129,7 +129,7 @@ function Navbar() {
                         >
                           motor hydro test pump (AMTMH)
                         </Link>
-
+                        {/* 
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
                           href={"/products/hand-hydro-test-pump-amth"}
@@ -149,8 +149,8 @@ function Navbar() {
                           href={"/products/triplex-plunger-pump-amttpp"}
                         >
                           triplex plunger pump (AMTTPP)
-                        </Link>
-{/* 
+                        </Link> */}
+                        {/* 
                         <Link
                           className="my-2 block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-themeCarrot md:mx-2 capitalize"
                           href={"/products/triplex-plunger-pump-amtlp"}
@@ -254,7 +254,7 @@ function Navbar() {
                         </span>
                       </Link>
 
-                      <ul>
+                      {/* <ul>
                         <li className="">
                           <div className="flex w-full border-3 border-white">
                             <div className="relative cursor-pointer">
@@ -345,7 +345,7 @@ function Navbar() {
                             </div>
                           </div>
                         </li>
-                      </ul>
+                      </ul> */}
 
                       <Link
                         href={"/contact-us"}
